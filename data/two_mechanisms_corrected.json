@@ -1,0 +1,40 @@
+{
+  "mechanism_1_het_repair": {
+    "n_plus": 5811,
+    "n_minus": 135965,
+    "mean_plus": 0.3228,
+    "mean_minus": 0.1819,
+    "ratio": 1.775,
+    "p": 1.5973945768320806e-39
+  },
+  "mechanism_2_eu_transcription": {
+    "n_plus": 5152,
+    "n_minus": 147367,
+    "mean_plus": 0.2646,
+    "mean_minus": 0.1157,
+    "ratio": 2.2866,
+    "p": 3.3313302414455612e-99
+  },
+  "z3_h3k4me3": {
+    "n_plus": 11277,
+    "n_minus": 130499,
+    "mean_plus": 0.3608,
+    "mean_minus": 0.1727,
+    "ratio": 2.0894,
+    "p": 3.706358504439447e-263
+  },
+  "z1_h3k9me3": {
+    "n_plus": 2148,
+    "n_minus": 150371,
+    "mean_plus": 0.2034,
+    "mean_minus": 0.1195,
+    "ratio": 1.7018,
+    "p": 1.0278076507281528e-08
+  },
+  "data": {
+    "n_files": 992,
+    "n_mapped": 89565,
+    "z1_muts": 18413,
+    "z3_muts": 26605
+  }
+}
