@@ -1,6 +1,5 @@
 # Ev: DNA Sequence Composition Predicts Cancer Mutation Geography and Epigenetic Aging
 
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.710061-b31b1b.svg)](https://www.biorxiv.org/content/10.1101/2026.710061)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A single fixed-parameter formula (Ev) operating on raw DNA sequence classifies genomic windows into chromatin-like zones and predicts somatic mutation enrichment across 15 cancer types — without any experimental epigenomic data, training, or reference databases.
@@ -173,7 +172,6 @@ else:
   title={A single formula predicts where cancer mutations and epigenetic
          aging converge from DNA sequence alone},
   author={Tiwari, Aditya},
-  journal={bioRxiv},
   year={2026},
   doi={10.1101/2026.710061}
 }
