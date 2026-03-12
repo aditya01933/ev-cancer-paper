@@ -4,6 +4,8 @@
 
 A single fixed-parameter formula (Ev) operating on raw DNA sequence classifies genomic windows into chromatin-like zones and predicts somatic mutation enrichment across 15 cancer types — without any experimental epigenomic data, training, or reference databases.
 
+> **⚠️ CORRECTION (2026-03-12):** The TSG/oncogene segregation statistic (OR=9.2, P=4×10⁻¹²) reported in earlier manuscript versions was erroneous. The actual values from the 101 COSMIC Tier 1 genes are OR=1.83, P=0.38 (non-significant). The qualitative pattern holds (TP53/BRCA1 in Zone 3; KRAS/NRAS/HRAS in Zone 1). All other results are unchanged and independently validated. See `sanity_check.py` for full verification.
+
 **Paper:** Tiwari A. (2026) "A single formula predicts where cancer mutations and epigenetic aging converge from DNA sequence alone." _bioRxiv_ [doi: pending]
 
 ---
