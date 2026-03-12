@@ -1,0 +1,59 @@
+[OK] Formula: P[0,0]=0.01904482  Z1=0.382  Z3=-1.471
+
+[STEP 1] Parsing MAF...
+  MAF header OK: 114 columns
+  Total=3,599,843  mapped=2,525,742 (70.2%)  skip=0
+  BRCA: 120,576
+  LUAD: 163,650
+  LUSC: 174,599
+  SKCM: 384,663
+  PRAD: 21,767
+  BLCA: 92,171
+  COAD: 189,458
+  GBM: 62,896
+  HNSC: 99,110
+  KIRC: 33,115
+  LIHC: 36,703
+  OV: 85,219
+  STAD: 147,232
+  THCA: 18,127
+  UCEC: 896,456
+
+[STEP 2] Computing zones...
+  chr 1:  46105w  skip=3686  mut=  367285  Z1=11429  Z3=11570  gc=[0.248,0.720]  ev_mean=-0.556
+  chr 2:  48114w  skip= 324  mut=  263739  Z1=13529  Z3=10755  gc=[0.157,0.683]  ev_mean=-0.432
+  chr 3:  39623w  skip=  36  mut=  207206  Z1=11770  Z3= 7778  gc=[0.248,0.668]  ev_mean=-0.345
+  chr 4:  37958w  skip=  84  mut=  143386  Z1=13217  Z3= 6250  gc=[0.097,0.736]  ev_mean=-0.188
+  chr 5:  36259w  skip=  48  mut=  179460  Z1=10892  Z3= 7203  gc=[0.218,0.671]  ev_mean=-0.343
+  chr 6:  34019w  skip= 142  mut=  182959  Z1=10322  Z3= 6796  gc=[0.242,0.666]  ev_mean=-0.346
+  chr 7:  31800w  skip=  69  mut=  182057  Z1= 8580  Z3= 7653  gc=[0.193,0.711]  ev_mean=-0.493
+  chr 8:  28957w  skip=  70  mut=  127471  Z1= 8125  Z3= 6058  gc=[0.218,0.733]  ev_mean=-0.407
+  chr 9:  24375w  skip=3303  mut=  117861  Z1= 6163  Z3= 5997  gc=[0.236,0.713]  ev_mean=-0.527
+  chr10:  26662w  skip=  97  mut=  135470  Z1= 6431  Z3= 6594  gc=[0.236,0.729]  ev_mean=-0.552
+  chr11:  26910w  skip= 107  mut=  213339  Z1= 6578  Z3= 6889  gc=[0.182,0.749]  ev_mean=-0.561
+  chr12:  26629w  skip=  26  mut=  187343  Z1= 6997  Z3= 6282  gc=[0.210,0.686]  ev_mean=-0.493
+  chr13:  19603w  skip=3269  mut=   64695  Z1= 6470  Z3= 3724  gc=[0.182,0.665]  ev_mean=-0.271
+  chr14:  18119w  skip=3289  mut=  111813  Z1= 4746  Z3= 4464  gc=[0.254,0.708]  ev_mean=-0.517
+  chr15:  16933w  skip=3465  mut=  111164  Z1= 3736  Z3= 4723  gc=[0.184,0.683]  ev_mean=-0.671
+  chr16:  16366w  skip=1701  mut=  131830  Z1= 2708  Z3= 5391  gc=[0.231,0.708]  ev_mean=-0.862
+  chr17:  16590w  skip=  61  mut=  186106  Z1= 2359  Z3= 6480  gc=[0.278,0.714]  ev_mean=-1.006
+  chr18:  16021w  skip=  53  mut=   59106  Z1= 4442  Z3= 4027  gc=[0.230,0.653]  ev_mean=-0.477
+  chr19:  11690w  skip=  33  mut=  232901  Z1= 1222  Z3= 5242  gc=[0.300,0.732]  ev_mean=-1.203
+  chr20:  12798w  skip=  90  mut=   88278  Z1= 2059  Z3= 4451  gc=[0.284,0.700]  ev_mean=-0.918
+  chr21:   8033w  skip=1308  mut=   33585  Z1= 2105  Z3= 2211  gc=[0.227,0.764]  ev_mean=-0.572
+  chr22:   7846w  skip=2317  mut=   64744  Z1=  914  Z3= 3339  gc=[0.198,0.688]  ev_mean=-1.169
+  chr X:  30986w  skip= 222  mut=  162962  Z1= 7797  Z3= 8059  gc=[0.102,0.698]  ev_mean=-0.584
+
+[STEP 3] Genome-wide validation...
+  GC thresholds: Z1>=0.4370  Z3<=0.3654
+  Total windows : 582,396
+  Total mutations: 3,554,760
+
+  === KEY RESULTS ===
+  Ev-zones  OR=1.568  p=0.00e+00  (paper claim: OR=1.682)
+  GC-zones  OR=0.323  p=1.00e+00
+  Delta OR (Ev - GC) = +1.245
+  Ev OR replication: PASS
+
+[DONE] → data/recompute_summary.json
+Verify: python3 scripts/sanity_zones.py

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-12 02:04:20",
+  "T5_diagnosis": "BRCA-only proportion ratio confirms C>T as only enriched class; ALL-cancer pooling inflates all classes",
+  "T6_diagnosis": "Raw counts give higher fold change than binary; original used GDC per-patient mutation counts",
+  "T12_diagnosis": "mean_ev misclassifies most genes to Z2; majority-window method + 101 genes needed",
+  "T13_diagnosis": "JSON key mismatch: het_mean=Z3 \u0394\u03b2, eu_deltas=Z1 \u0394\u03b2",
+  "MC3_vs_GDC": "MC3 has 120K BRCA muts vs GDC 89K; OR=1.585 vs 1.682; same direction, different callset",
+  "chr18_inversion": "MC3-specific; paper uses GDC where chr19 inverts",
+  "d3_continuous_r": -0.0334,
+  "d3_continuous_rho": -0.0515,
+  "d4_monotonic": true
+}

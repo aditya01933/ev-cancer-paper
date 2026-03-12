@@ -1,0 +1,10 @@
+{
+  "r_at_raw": 0.3533,
+  "r_at_partial": 0.3812,
+  "r_cg_raw": -0.2613,
+  "r_cg_partial": -0.2768,
+  "z1_at_skew": 0.0408,
+  "z3_at_skew": -0.0475,
+  "r_mut_at": -0.0088,
+  "r_mut_ev": -0.0414
+}

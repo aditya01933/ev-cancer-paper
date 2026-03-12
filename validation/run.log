@@ -1,0 +1,260 @@
+╔══════════════════════════════════════════════════════════╗
+║  COMPREHENSIVE PAPER VALIDATION ENGINE v1               ║
+║  Testing ALL claims from raw data                       ║
+╚══════════════════════════════════════════════════════════╝
+
+[T0] Formula fingerprint: P[0,0]=0.01904482 primes=95 KI=256 (expected P[0,0]=0.01904482 primes=95 KI=256) → PASS
+
+============================================================
+T1: Recompute zones from raw FASTA
+============================================================
+  chr 1:  46105w  Z1=11429  Z3=11570
+  chr 2:  48114w  Z1=13529  Z3=10755
+  chr 3:  39623w  Z1=11770  Z3= 7778
+  chr 4:  37958w  Z1=13217  Z3= 6250
+  chr 5:  36259w  Z1=10892  Z3= 7203
+  chr 6:  34019w  Z1=10322  Z3= 6796
+  chr 7:  31800w  Z1= 8580  Z3= 7653
+  chr 8:  28957w  Z1= 8125  Z3= 6058
+  chr 9:  24375w  Z1= 6163  Z3= 5997
+  chr10:  26662w  Z1= 6431  Z3= 6594
+  chr11:  26910w  Z1= 6578  Z3= 6889
+  chr12:  26629w  Z1= 6997  Z3= 6282
+  chr13:  19603w  Z1= 6470  Z3= 3724
+  chr14:  18119w  Z1= 4746  Z3= 4464
+  chr15:  16933w  Z1= 3736  Z3= 4723
+  chr16:  16366w  Z1= 2708  Z3= 5391
+  chr17:  16590w  Z1= 2359  Z3= 6480
+  chr18:  16021w  Z1= 4442  Z3= 4027
+  chr19:  11690w  Z1= 1222  Z3= 5242
+  chr20:  12798w  Z1= 2059  Z3= 4451
+  chr21:   8033w  Z1= 2105  Z3= 2211
+  chr22:   7846w  Z1=  914  Z3= 3339
+  chr X:  30986w  Z1= 7797  Z3= 8059
+  Bio sanity: gene_rich(155Mb)=-1.234 > pericentro(121Mb)=-0.594 → WARN
+  Bio sanity alt: 1p36(47Mb)=+0.198 > pericentro(121Mb)=-0.594 → OK
+[T1] Zone counts from FASTA: total=582396 Z1=152591 Z3=141936 (expected total~582028 Z1~152519 Z3~141776) → PASS
+
+============================================================
+T2: Parse MC3 MAF → genome-wide BRCA OR
+============================================================
+  Total mutations: 3,599,843  BRCA: 120,576
+  BRCA: Z1_mut_win=11271 Z3_mut_win=15927
+  OR=1.585  p=2.55e-283
+[T2] Genome-wide BRCA OR: OR=1.585 p=2.55e-283 (expected OR~1.682 p<1e-100) → PASS
+
+============================================================
+T3: Per-chromosome ORs
+============================================================
+  chr 1: OR=1.533  p=3.38e-26  ✓
+  chr 2: OR=1.339  p=2.08e-10  ✓
+  chr 3: OR=1.758  p=1.39e-28  ✓
+  chr 4: OR=1.251  p=3.15e-04  ✓
+  chr 5: OR=1.407  p=4.65e-09  ✓
+  chr 6: OR=1.559  p=1.19e-15  ✓
+  chr 7: OR=1.615  p=7.50e-18  ✓
+  chr 8: OR=1.284  p=7.53e-05  ✓
+  chr 9: OR=1.335  p=7.07e-06  ✓
+  chr10: OR=1.167  p=7.73e-03  ✓
+  chr11: OR=1.489  p=1.61e-12  ✓
+  chr12: OR=1.641  p=1.26e-19  ✓
+  chr13: OR=1.452  p=1.88e-05  ✓
+  chr14: OR=1.430  p=6.66e-07  ✓
+  chr15: OR=1.148  p=2.68e-02  ✓
+  chr16: OR=2.061  p=1.37e-20  ✓
+  chr17: OR=1.189  p=5.72e-03  ✓
+  chr18: OR=0.688  p=1.00e+00  ✗ INVERTED
+  chr19: OR=1.623  p=3.74e-10  ✓
+  chr20: OR=1.207  p=1.93e-02  ✓
+  chr21: OR=1.860  p=1.11e-06  ✓
+  chr22: OR=1.042  p=3.84e-01  ✓
+  chr X: OR=1.292  p=1.48e-05  ✓
+[T3] Per-chr ORs >1: 22/23 chromosomes OR>1 (expected >=21/23) → PASS
+
+============================================================
+T4: Pan-cancer 15 types
+============================================================
+  BLCA  : OR=1.596  p=4.10e-241
+  BRCA  : OR=1.585  p=2.55e-283
+  COAD  : OR=1.579  p=3.79e-316
+  GBM   : OR=1.608  p=4.28e-204
+  HNSC  : OR=1.547  p=7.39e-206
+  KIRC  : OR=1.649  p=2.32e-146
+  LIHC  : OR=1.512  p=5.15e-107
+  LUAD  : OR=1.520  p=5.62e-245
+  LUSC  : OR=1.487  p=4.52e-222
+  OV    : OR=1.515  p=1.15e-186
+  PRAD  : OR=1.611  p=6.49e-91
+  SKCM  : OR=1.569  p=0.00e+00
+  STAD  : OR=1.563  p=6.69e-254
+  THCA  : OR=1.624  p=3.61e-89
+  UCEC  : OR=1.564  p=0.00e+00
+[T4] Pan-cancer universality: 15/15 types OR>1, mean=1.57 (expected 15/15 OR>1, mean~1.63) → PASS
+
+============================================================
+T5: C>T specificity
+============================================================
+  C>T: Z1= 10167 Z3= 15822 ratio=1.673 Z3-enriched
+  C>A: Z1=  3608 Z3=  5073 ratio=1.512 Z3-enriched
+  C>G: Z1=  3691 Z3=  5602 ratio=1.632 Z3-enriched
+  T>A: Z1=  1081 Z3=  1374 ratio=1.366 Z3-enriched
+  T>C: Z1=  2426 Z3=  3046 ratio=1.350 Z3-enriched
+  T>G: Z1=  1002 Z3=  1186 ratio=1.272 Z3-enriched
+[T5] C>T only class enriched Z3: C>T ratio=1.673 (expected C>T>1.0 and all others<=1.05) → *** FAIL ***
+
+============================================================
+T6: ChIP-seq validation (H3K4me3 chr1)
+============================================================
+  H3K4me3 peaks: 31965 windows
+  H3K9me3 peaks: 16332 windows
+  Z3+H3K4me3: n=1133 mean=0.4545
+  Z3-H3K4me3: n=10437 mean=0.3277
+  Ratio=1.387  p=6.97e-09
+  Z3+H3K9me3: n=5813 ratio=1.192
+[T6] H3K4me3 in Z3 mutation fold: ratio=1.387 p=6.97e-09 (expected ratio~3.45 p<1e-100) → *** FAIL ***
+
+============================================================
+T7: Replication timing independence
+============================================================
+/Users/aditya/ai-project/ev-cancer-paper/validate_all_claims.py:474: RuntimeWarning: Mean of empty slice
+  rt = np.nanmean(vals)
+  Early: OR=1.656  p=4.60e-12  ✓
+  Mid: OR=1.558  p=9.20e-10  ✓
+  Late: OR=1.503  p=2.85e-08  ✓
+  Early: OR=1.656  p=4.60e-12  Z1w=3214 Z3w=3327  ✓
+  Mid: OR=1.558  p=9.20e-10  Z1w=3138 Z3w=3402  ✓
+  Late: OR=1.503  p=3.80e-08  Z1w=3188 Z3w=3192  ✓
+[T7] RT independence: all 3 strata sig: 3/3 significant (expected 3/3 significant) → PASS
+
+============================================================
+T8: Reverse-map 4-mer drivers (chr1)
+============================================================
+  Windows: 46105
+  Top 5 POSITIVE (Z1-driving):
+    AAAT: r=+0.4132  AT%=100  
+    GAAA: r=+0.3533  AT%=75  
+    AATA: r=+0.3386  AT%=100  
+    TAAA: r=+0.3180  AT%=100  
+    ATAA: r=+0.2968  AT%=100  
+  Top 5 NEGATIVE (Z3-driving):
+    TTTC: r=-0.3211  AT%=75  
+    TTTT: r=-0.3323  AT%=100  
+    TCTT: r=-0.3497  AT%=75  
+    TTCT: r=-0.3693  AT%=75  
+    CTTT: r=-0.4035  AT%=75  
+  P matrix CpG vs non-CpG L2 norm diff: 0.5%
+[T8] 4-mer reverse-map: top_pos=AAAT r=0.4132 top_neg=CTTT r=-0.4035 P_bias=0.5% (expected AAAT~+0.53, CTCC~-0.44, P_bias<5%) → PASS
+
+============================================================
+T9: AT-skew / PCA analysis (chr1)
+============================================================
+  AT-skew partial r (GC removed): +0.3812
+  Z1 AT-skew: +0.0408  Z3 AT-skew: -0.0475
+  Effect size: 0.0883
+[T9] AT-skew partial r: r=+0.3812 Z1=+0.0408 Z3=-0.0475 (expected r~0.38, Z1>0, Z3<0) → PASS
+
+============================================================
+T10: Alu density & per-Alu mutation rate (chr1)
+============================================================
+  Z1: mean_alu=436.8bp  muts=2535
+  Z3: mean_alu=787.2bp  muts=3935
+  Alu density Z3/Z1 = 1.80x
+  Per-Alu-kb mut rate: Z1=0.51  Z3=0.43
+  Causal disproof: per-Alu rate LOWER in Z3 = True
+[T10] Alu Z3/Z1 + causal disproof: density_ratio=1.80x per_alu Z1=0.51 Z3=0.43 (expected ratio~1.80x, Z3 per-Alu < Z1 per-Alu) → PASS
+
+============================================================
+T11: GC-only vs Ev zones OR comparison
+============================================================
+  GC thresholds: Z1>=0.4370  Z3<=0.3654
+  GC-zones OR=0.339  p=1.00e+00
+  Ev-zones OR=~1.682 (from T2)
+  Delta OR (Ev - GC) = +1.246
+[T11] Ev OR > GC OR: GC_OR=0.339 Ev_OR=1.585 delta=+1.246 (expected Ev OR > GC OR) → PASS
+
+============================================================
+T12: TSG/Oncogene zone segregation
+============================================================
+  TSG in Z3: 2/18 = 11%
+  OG in Z3:  4/12 = 33%
+  Fisher OR=0.2  p=1.84e-01
+  TP53: zone=Z3 ev=-2.484
+  KRAS: zone=Z1 ev=0.561
+[T12] TSG/OG segregation: TSG_Z3=2/18 OG_Z3=4/12 OR=0.2 (expected TSG>>OG in Z3, OR~9.2, TP53=Z3, KRAS=Z1) → *** FAIL ***
+
+============================================================
+T13: Methylation change (from cached JSON)
+============================================================
+  key: n_pairs
+  key: het_deltas
+  key: eu_deltas
+  key: global_deltas
+  key: het_mean
+  key: p_het
+[T13] Methylation: SKIP: cannot parse JSON (expected Z3 Δβ~-0.054) → *** FAIL ***
+
+============================================================
+T14: Horvath 353 clock CpGs × Ev zones
+============================================================
+  Parsed 353 CpGs
+  Mapped: 346/353
+  All: Z1=55 Z2=185 Z3=106
+  Z3: 30.6% vs genome 24.4%
+  All Z3 Fisher: OR=1.37  p=8.40e-03
+  Positive: n=190 Z3=73 (38.4%) OR=1.94 p=1.97e-05
+  Negative: n=156 Z3=33 (21.2%) OR=0.83 p=4.01e-01
+[T14] Horvath positive CpGs Z3 enrichment: pos OR=1.94 p=1.97e-05, neg OR=0.83 p=4.01e-01 (expected pos OR~1.94 p<0.01, neg not enriched) → PASS
+
+============================================================
+T15: Germline 1000G baseline (from cached JSON)
+============================================================
+  Z3/Z1 ratio = 1.1289017423878338
+  p = 1.522318758418961e-82
+  Cancer amplification = 1.40x (expect ~1.38x)
+[T15] Germline Z3/Z1 ratio: ratio=1.129 amplification=1.40x (expected ratio~1.129, amplification~1.38x) → PASS
+
+============================================================
+T16: Cross-species Zone 3 conservation
+============================================================
+  Human         :  46105w  Z3= 25.1%  Z3_mean=-2.259795585133967
+  Chimp         :  44262w  Z3= 25.1%  Z3_mean=-2.2447388006482982
+  Arabidopsis   :   6055w  Z3= 14.8%  Z3_mean=-2.355260757238307
+  Soybean       :  11290w  Z3= 18.0%  Z3_mean=-2.476346059694129
+  Maize         :  61609w  Z3= 49.6%  Z3_mean=-2.484812139897899
+  Sorghum       :  15207w  Z3= 48.8%  Z3_mean=-2.4903291946688206
+  Brachypodium  :  14994w  Z3= 54.4%  Z3_mean=-2.437439768268759
+  Physcomitrium :   6011w  Z3= 28.6%  Z3_mean=-2.5109937124563446
+  Chlamydomonas :   1537w  Z3=  3.3%  Z3_mean=-1.73287536
+  Selaginella   :  42284w  Z3= 59.9%  Z3_mean=-2.5337679254714747
+
+  Z3 mean across 10 species: -2.353 ± 0.228
+  CV = 9.7%  (paper claims 2.6%)
+  All species have Z3 > 3%: True
+[T16] Cross-species Z3 conservation: 10 species, CV=9.7%, mean=-2.353 (expected CV~2.6%, all species have Z3) → PASS
+
+============================================================
+VALIDATION SUMMARY
+============================================================
+  T0: ✓ PASS — Formula fingerprint
+  T1: ✓ PASS — Zone counts from FASTA
+  T10: ✓ PASS — Alu Z3/Z1 + causal disproof
+  T11: ✓ PASS — Ev OR > GC OR
+  T12: ✗ FAIL — TSG/OG segregation
+  T13: ✗ FAIL — Methylation
+  T14: ✓ PASS — Horvath positive CpGs Z3 enrichment
+  T15: ✓ PASS — Germline Z3/Z1 ratio
+  T16: ✓ PASS — Cross-species Z3 conservation
+  T2: ✓ PASS — Genome-wide BRCA OR
+  T3: ✓ PASS — Per-chr ORs >1
+  T4: ✓ PASS — Pan-cancer universality
+  T5: ✗ FAIL — C>T only class enriched Z3
+  T6: ✗ FAIL — H3K4me3 in Z3 mutation fold
+  T7: ✓ PASS — RT independence: all 3 strata sig
+  T8: ✓ PASS — 4-mer reverse-map
+  T9: ✓ PASS — AT-skew partial r
+
+  TOTAL: 13/17 passed, 4 failed
+  ⚠ INVESTIGATE FAILURES BEFORE SUBMISSION
+
+  → validation/VALIDATION_LOG.json
+  → validation/VALIDATION_REPORT.txt

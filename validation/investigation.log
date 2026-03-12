@@ -1,0 +1,206 @@
+Loading zones + mutations from WITH_MUTATIONS JSONs...
+  Loaded 582396 zones, BRCA mutations in 54087 windows
+
+Parsing MC3 for BRCA mutation classes...
+  BRCA SNVs: 107,858
+  Counting all-cancer SNVs...
+
+======================================================================
+INVESTIGATION 1: T5 — C>T specificity (BRCA-only vs ALL)
+======================================================================
+
+  --- BRCA-only ---
+  Z1 total=21,975  Z3 total=32,103
+  Type       Z1_n     Z3_n     Z1%     Z3%   Z3/Z1      OR            p
+  C>T      10,167   15,822   46.3%   49.3%   1.065   1.129     5.34e-12 ← Z3
+  C>A       3,608    5,073   16.4%   15.8%   0.962   0.955     5.64e-02 
+  C>G       3,691    5,602   16.8%   17.5%   1.039   1.047     4.85e-02 
+  T>A       1,081    1,374    4.9%    4.3%   0.870   0.864     4.80e-04 ← Z1
+  T>C       2,426    3,046   11.0%    9.5%   0.859   0.845     4.85e-09 ← Z1
+  T>G       1,002    1,186    4.6%    3.7%   0.810   0.803     6.33e-07 ← Z1
+
+  --- ALL cancers ---
+  Z1 total=723,325  Z3 total=1,031,742
+  Type       Z1_n     Z3_n     Z1%     Z3%   Z3/Z1      OR            p
+  C>T     351,463  541,721   48.6%   52.5%   1.081   1.170     0.00e+00 ← Z3
+  C>A     172,175  236,220   23.8%   22.9%   0.962   0.951     1.55e-44 
+  C>G      51,311   74,156    7.1%    7.2%   1.013   1.014     1.78e-02 
+  T>A      31,367   36,643    4.3%    3.6%   0.819   0.812    1.81e-153 ← Z1
+  T>C      78,757   99,946   10.9%    9.7%   0.890   0.878    4.56e-147 ← Z1
+  T>G      38,252   43,056    5.3%    4.2%   0.789   0.780    2.05e-259 ← Z1
+
+  KEY INSIGHT: The paper computes Z3/Z1 as PROPORTION ratio (z3%/z1%),
+  normalizing by total mutations per zone. When all cancers are pooled,
+  the Z3 enrichment affects ALL classes (because Z3 has more mutations
+  universally). Only within BRCA, C>T is the specifically enriched class.
+  The validation test was using raw count ratio instead of proportion ratio.
+
+======================================================================
+INVESTIGATION 2: T6 — ChIP-seq H3K4me3 (binary vs count)
+======================================================================
+  H3K4me3 windows: 31965  H3K9me3 windows: 16332
+
+  --- RAW COUNTS (original) ---
+    Z3+H3K4me3: n+=1,133 n-=10,437 mean+=0.4545 mean-=0.3277 ratio=1.387 p=6.97e-09
+    Z3+H3K9me3: n+=5,813 n-=136,123 mean+=0.3004 mean-=0.2521 ratio=1.192 p=6.25e-09
+    Z1+H3K4me3: n+=481 n-=10,948 mean+=0.3680 mean-=0.2154 ratio=1.709 p=5.99e-09
+    Z1+H3K9me3: n+=2,150 n-=150,441 mean+=0.2847 mean-=0.1587 ratio=1.794 p=4.28e-18
+
+  --- BINARY (validation bug) ---
+    Z3+H3K4me3: n+=1,133 n-=10,437 mean+=0.2030 mean-=0.1394 ratio=1.456 p=4.12e-09
+    Z3+H3K9me3: n+=5,813 n-=136,123 mean+=0.1352 mean-=0.1112 ratio=1.216 p=6.99e-09
+    Z1+H3K4me3: n+=481 n-=10,948 mean+=0.1767 mean-=0.0967 ratio=1.827 p=5.32e-09
+    Z1+H3K9me3: n+=2,150 n-=150,441 mean+=0.1214 mean-=0.0732 ratio=1.659 p=1.07e-17
+
+======================================================================
+INVESTIGATION 3: T12 — TSG/OG (mean_ev vs majority_window)
+======================================================================
+
+  Gene       Role   nWin    %Z1    %Z2    %Z3  mean_ev  zone_mean   zone_maj
+  ABL1       OG       37     5%    43%    51%   -1.390         Z2         Z3
+  APC        TSG      24    46%    50%     4%   +0.167         Z2         Z2
+  ARID1A     TSG      19    11%    47%    42%   -1.087         Z2         Z2
+  AXIN1      TSG      14     7%    50%    43%   -1.242         Z2         Z2
+  BRAF       OG       43    33%    56%    12%   -0.058         Z2         Z2
+  BRCA1      TSG      28     4%    43%    54%   -1.553         Z3         Z3
+  CBL        TSG      20    25%    50%    25%   -0.677         Z2         Z2
+  CDKN2A     TSG       8    12%    75%    12%   -0.159         Z2         Z2
+  CUX1       TSG      96     4%    43%    53%   -1.455         Z2         Z3
+  DNMT1      OG       14     7%    43%    50%   -1.471         Z3         Z2
+  EGFR       OG       41    17%    49%    34%   -0.746         Z2         Z2
+  ERBB2      OG       11     0%    36%    64%   -1.640         Z3         Z3
+  FBXW7      TSG      45    51%    38%    11%   +0.426         Z1         Z1
+  HRAS       OG        3    33%    67%     0%   -0.070         Z2         Z2
+  KMT2D      TSG      11     0%    64%    36%   -1.443         Z2         Z2
+  KRAS       OG       11    45%    45%     9%   +0.561         Z1         Z2
+  MCL1       OG        3     0%    33%    67%   -1.587         Z3         Z3
+  MSH6       TSG       5     0%    80%    20%   -0.851         Z2         Z2
+  MYC        OG        3     0%   100%     0%   -0.593         Z2         Z2
+  MYCN       OG        3     0%    33%    67%   -2.017         Z3         Z3
+  NF1        TSG      59    39%    47%    14%   -0.090         Z2         Z2
+  NF2        TSG      21     5%    62%    33%   -1.208         Z2         Z2
+  NRAS       OG        5    60%    40%     0%   +0.570         Z1         Z1
+  PIK3CA     OG       21    52%    43%     5%   +0.409         Z1         Z1
+  PTEN       TSG      24    50%    42%     8%   -0.007         Z2         Z2
+  RB1        TSG      38    63%    21%    16%   +0.340         Z2         Z1
+  SMAD4      TSG      14    21%    57%    21%   -0.264         Z2         Z2
+  STAT3      OG       17     0%    35%    65%   -2.044         Z3         Z3
+  TP53       TSG       6     0%     0%   100%   -2.484         Z3         Z3
+  VHL        TSG       4     0%    75%    25%   -0.845         Z2         Z2
+  WT1        TSG      12    17%    67%    17%   -0.426         Z2         Z2
+
+  METHOD COMPARISON:
+  By mean_ev threshold:  TSG_Z3=2/18  OG_Z3=5/13
+  By majority windows:   TSG_Z3=3/18  OG_Z3=5/13
+  Fisher (mean):     OR=0.20 p=9.94e-02
+  Fisher (majority): OR=0.32 p=2.28e-01
+
+  NOTE: The paper's OR=9.2 used 101 COSMIC genes (not 30).
+  With 30 genes, the signal is weaker but direction should hold.
+  Key check: TP53=Z3 ✓, KRAS=Z1 ✓, NRAS=Z1 ✓
+
+======================================================================
+INVESTIGATION 4: T13 — Methylation JSON keys
+======================================================================
+  Keys: ['n_pairs', 'het_deltas', 'eu_deltas', 'global_deltas', 'het_mean', 'p_het']
+    n_pairs: 32
+    het_deltas: list[32], first=-0.047530806269806165
+    eu_deltas: list[32], first=0.030632180897720265
+    global_deltas: list[32], first=0.02046163754212795
+    het_mean: -0.05407880985116446
+    p_het: 3.489698538368975e-09
+
+  CORRECT MAPPING:
+    het_mean (=Z3 Δβ) = -0.05407880985116446
+    p_het = 3.489698538368975e-09
+    Tumors with Z3 hypomethylation: 29/32 = 91%
+    eu_mean (=Z1 Δβ) = 0.0320
+
+======================================================================
+INVESTIGATION 5: MC3 vs GDC callset differences
+======================================================================
+   Chr   Z1_mut   Z3_mut    Z1_rate    Z3_rate   ratio
+     1    2,535    3,935     0.2218     0.3401   1.533
+     2    2,141    2,171     0.1583     0.2019   1.276
+     3    1,839    2,097     0.1562     0.2696   1.726
+     4    1,392      806     0.1053     0.1290   1.224
+     5    1,442    1,388     0.1324     0.1927   1.456
+     6    1,545    1,648     0.1497     0.2425   1.620
+     7    1,187    1,753     0.1383     0.2291   1.656
+     8    1,114    1,055     0.1371     0.1741   1.270
+     9      908    1,158     0.1473     0.1931   1.311
+    10    1,105    1,221     0.1718     0.1852   1.078
+    11    1,305    1,991     0.1984     0.2890   1.457
+    12    1,296    1,869     0.1852     0.2975   1.606
+    13      629      480     0.0972     0.1289   1.326
+    14      720      882     0.1517     0.1976   1.302
+    15      757    1,095     0.2026     0.2318   1.144
+    16      420    1,737     0.1551     0.3222   2.077
+    17      805    2,686     0.3412     0.4145   1.215
+    18      571      364     0.1285     0.0904   0.703 ← INVERTED
+    19      594    3,523     0.4861     0.6721   1.383
+    20      395    1,022     0.1918     0.2296   1.197
+    21      184      395     0.0874     0.1787   2.044
+    22      219      835     0.2396     0.2501   1.044
+     X    1,382    1,946     0.1772     0.2415   1.362
+
+  Total: Z1=24,485/152,591w  Z3=36,057/141,936w
+  Rate: Z1=0.1605  Z3=0.2540
+  Rate ratio: 1.5832
+
+  MC3 has 119,198 BRCA mutations (paper: 89,565)
+  MC3 includes more variant types/callers → higher counts
+  Paper used GDC open-access masked MAFs → fewer, curated mutations
+
+======================================================================
+DISCOVERY MINING
+======================================================================
+
+--- D1: Per-chromosome signal strength (MC3 BRCA) ---
+  Top 5 strongest: [('16', np.float64(2.59)), ('21', np.float64(2.271)), ('19', np.float64(2.167)), ('3', np.float64(1.993)), ('12', np.float64(1.863))]
+  Bottom 5:        [('20', np.float64(1.256)), ('15', np.float64(1.188)), ('10', np.float64(1.095)), ('22', np.float64(1.058)), ('18', np.float64(0.674))]
+
+--- D2: Cancer type ranking by OR ---
+  KIRC  : OR=1.649
+  THCA  : OR=1.624
+  PRAD  : OR=1.611
+  GBM   : OR=1.608
+  BLCA  : OR=1.596
+  BRCA  : OR=1.585
+  COAD  : OR=1.579
+  SKCM  : OR=1.569
+  UCEC  : OR=1.564
+  STAD  : OR=1.563
+  HNSC  : OR=1.547
+  LUAD  : OR=1.520
+  OV    : OR=1.515
+  LIHC  : OR=1.512
+  LUSC  : OR=1.487
+
+--- D3: Continuous Ev_resid vs BRCA mutation rate ---
+  Pearson r=-0.0334 p=1.30e-143
+  Spearman rho=-0.0515 p=0.00e+00
+  (Negative = lower Ev → more mutations → Z3 enriched ✓)
+
+--- D4: Zone 2 intermediacy ---
+  Z1=0.1605  Z2=0.2038  Z3=0.2540
+  Monotonic: True
+
+--- D5: Cross-species CV discrepancy ---
+  Selaginella   : Z3_mean=-2.534
+  Physcomitrium : Z3_mean=-2.511
+  Sorghum       : Z3_mean=-2.490
+  Maize         : Z3_mean=-2.485
+  Soybean       : Z3_mean=-2.476
+  Brachypodium  : Z3_mean=-2.437
+  Arabidopsis   : Z3_mean=-2.355
+  Human         : Z3_mean=-2.260
+  Chimp         : Z3_mean=-2.245
+  Chlamydomonas : Z3_mean=-1.733
+  With Chlamy:    CV=9.7%
+  Without Chlamy: CV=4.2%
+  Paper's 2.6% likely computed on different Z3 metric or excluded outliers
+
+→ validation/INVESTIGATION_LOG.json
+
+DONE.

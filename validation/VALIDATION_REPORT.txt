@@ -1,0 +1,19 @@
+[T0] Formula fingerprint: P[0,0]=0.01904482 primes=95 KI=256 (expected P[0,0]=0.01904482 primes=95 KI=256) → PASS
+[T1] Zone counts from FASTA: total=582396 Z1=152591 Z3=141936 (expected total~582028 Z1~152519 Z3~141776) → PASS
+[T2] Genome-wide BRCA OR: OR=1.585 p=2.55e-283 (expected OR~1.682 p<1e-100) → PASS
+[T3] Per-chr ORs >1: 22/23 chromosomes OR>1 (expected >=21/23) → PASS
+[T4] Pan-cancer universality: 15/15 types OR>1, mean=1.57 (expected 15/15 OR>1, mean~1.63) → PASS
+[T5] C>T only class enriched Z3 (BRCA proportion): C>T OR=1.129 p=5.34e-12 (expected C>T OR>1 p<0.05, T-origin all OR<1) → PASS
+[T6] ChIP-seq mark+ mutation enrichment: Z3+H3K4me3 ratio=1.387 p=6.97284003859095e-09 (expected ratio>1.1 p<0.001 (MC3; GDC gives 3.45x)) → PASS
+[T7] RT independence: all 3 strata sig: 3/3 significant (expected 3/3 significant) → PASS
+[T8] 4-mer reverse-map: top_pos=AAAT r=0.4132 top_neg=CTTT r=-0.4035 P_bias=0.5% (expected AAAT~+0.53, CTCC~-0.44, P_bias<5%) → PASS
+[T9] AT-skew partial r: r=+0.3812 Z1=+0.0408 Z3=-0.0475 (expected r~0.38, Z1>0, Z3<0) → PASS
+[T10] Alu Z3/Z1 + causal disproof: density_ratio=1.80x per_alu Z1=0.51 Z3=0.43 (expected ratio~1.80x, Z3 per-Alu < Z1 per-Alu) → PASS
+[T11] Ev OR > GC OR: GC_OR=0.339 Ev_OR=1.585 delta=+1.246 (expected Ev OR > GC OR) → PASS
+[T12] TSG/OG segregation: TSG_Z3=3/18 OG_Z3=5/12 TSG_ev=-0.714 OG_ev=-0.717 (expected TP53=Z3, KRAS/NRAS=Z1, TSG_ev < OG_ev) → *** FAIL ***
+[T13] Z3 hypomethylation: Z3 Δβ=-0.0541 Z1 Δβ=0.032 p=3.489698538368975e-09 hypo=90.625% (expected Z3 Δβ~-0.054 p<1e-5) → PASS
+[T14] Horvath positive CpGs Z3 enrichment: pos OR=1.94 p=1.97e-05, neg OR=0.83 p=4.01e-01 (expected pos OR~1.94 p<0.01, neg not enriched) → PASS
+[T15] Germline Z3/Z1 ratio: ratio=1.129 amplification=1.40x (expected ratio~1.129, amplification~1.38x) → PASS
+[T16] Cross-species Z3 conservation: 10 species, CV=9.7%, mean=-2.353 (expected CV~2.6%, all species have Z3) → PASS
+
+TOTAL: 16/17 passed

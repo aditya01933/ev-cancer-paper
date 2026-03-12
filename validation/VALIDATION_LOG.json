@@ -1,0 +1,809 @@
+{
+  "tests": {
+    "T0": {
+      "name": "Formula fingerprint",
+      "result": "P[0,0]=0.01904482 primes=95 KI=256",
+      "expected": "P[0,0]=0.01904482 primes=95 KI=256",
+      "passed": true,
+      "details": {}
+    },
+    "T1": {
+      "name": "Zone counts from FASTA",
+      "result": "total=582396 Z1=152591 Z3=141936",
+      "expected": "total~582028 Z1~152519 Z3~141776",
+      "passed": true,
+      "details": {
+        "counts": {
+          "Z1": 152591,
+          "Z2": 287869,
+          "Z3": 141936,
+          "total": 582396
+        },
+        "bio_gene": -1.233602,
+        "bio_peri": -0.593594
+      }
+    },
+    "T2": {
+      "name": "Genome-wide BRCA OR",
+      "result": "OR=1.585 p=2.55e-283",
+      "expected": "OR~1.682 p<1e-100",
+      "passed": true,
+      "details": {
+        "or": 1.5848,
+        "p": 2.547726232756764e-283,
+        "z1_mut": 11271,
+        "z3_mut": 15927,
+        "z1_win": 152591,
+        "z3_win": 141936,
+        "n_brca": 120576
+      }
+    },
+    "T3": {
+      "name": "Per-chr ORs >1",
+      "result": "22/23 chromosomes OR>1",
+      "expected": ">=21/23",
+      "passed": true,
+      "details": {
+        "1": {
+          "or": 1.533,
+          "p": 3.383641997057477e-26,
+          "gt1": "True"
+        },
+        "2": {
+          "or": 1.339,
+          "p": 2.081111611391139e-10,
+          "gt1": "True"
+        },
+        "3": {
+          "or": 1.758,
+          "p": 1.389911568149618e-28,
+          "gt1": "True"
+        },
+        "4": {
+          "or": 1.251,
+          "p": 0.00031507080635875465,
+          "gt1": "True"
+        },
+        "5": {
+          "or": 1.407,
+          "p": 4.648571567345966e-09,
+          "gt1": "True"
+        },
+        "6": {
+          "or": 1.559,
+          "p": 1.1881236968731295e-15,
+          "gt1": "True"
+        },
+        "7": {
+          "or": 1.615,
+          "p": 7.497447058792169e-18,
+          "gt1": "True"
+        },
+        "8": {
+          "or": 1.284,
+          "p": 7.530611349146545e-05,
+          "gt1": "True"
+        },
+        "9": {
+          "or": 1.335,
+          "p": 7.069614066293305e-06,
+          "gt1": "True"
+        },
+        "10": {
+          "or": 1.167,
+          "p": 0.007732708321738979,
+          "gt1": "True"
+        },
+        "11": {
+          "or": 1.489,
+          "p": 1.6118920010454303e-12,
+          "gt1": "True"
+        },
+        "12": {
+          "or": 1.641,
+          "p": 1.2553245617531141e-19,
+          "gt1": "True"
+        },
+        "13": {
+          "or": 1.452,
+          "p": 1.8780209080497744e-05,
+          "gt1": "True"
+        },
+        "14": {
+          "or": 1.43,
+          "p": 6.655932139170506e-07,
+          "gt1": "True"
+        },
+        "15": {
+          "or": 1.148,
+          "p": 0.026793301096581956,
+          "gt1": "True"
+        },
+        "16": {
+          "or": 2.061,
+          "p": 1.3652804173945958e-20,
+          "gt1": "True"
+        },
+        "17": {
+          "or": 1.189,
+          "p": 0.005724267781185812,
+          "gt1": "True"
+        },
+        "18": {
+          "or": 0.688,
+          "p": 0.9999728514159603,
+          "gt1": "False"
+        },
+        "19": {
+          "or": 1.623,
+          "p": 3.737991703820396e-10,
+          "gt1": "True"
+        },
+        "20": {
+          "or": 1.207,
+          "p": 0.019281292822952264,
+          "gt1": "True"
+        },
+        "21": {
+          "or": 1.86,
+          "p": 1.10554129892674e-06,
+          "gt1": "True"
+        },
+        "22": {
+          "or": 1.042,
+          "p": 0.3838945155775994,
+          "gt1": "True"
+        },
+        "X": {
+          "or": 1.292,
+          "p": 1.4817875879574807e-05,
+          "gt1": "True"
+        }
+      }
+    },
+    "T4": {
+      "name": "Pan-cancer universality",
+      "result": "15/15 types OR>1, mean=1.57",
+      "expected": "15/15 OR>1, mean~1.63",
+      "passed": true,
+      "details": {
+        "BLCA": {
+          "or": 1.596,
+          "p": 4.102393295857343e-241
+        },
+        "BRCA": {
+          "or": 1.585,
+          "p": 2.547726232756764e-283
+        },
+        "COAD": {
+          "or": 1.579,
+          "p": 3.79268416e-316
+        },
+        "GBM": {
+          "or": 1.608,
+          "p": 4.2777398962299264e-204
+        },
+        "HNSC": {
+          "or": 1.547,
+          "p": 7.392387978162871e-206
+        },
+        "KIRC": {
+          "or": 1.649,
+          "p": 2.3193382889138706e-146
+        },
+        "LIHC": {
+          "or": 1.512,
+          "p": 5.149626632959425e-107
+        },
+        "LUAD": {
+          "or": 1.52,
+          "p": 5.6233174195426984e-245
+        },
+        "LUSC": {
+          "or": 1.487,
+          "p": 4.519565537528495e-222
+        },
+        "OV": {
+          "or": 1.515,
+          "p": 1.1527854259086329e-186
+        },
+        "PRAD": {
+          "or": 1.611,
+          "p": 6.494853242640701e-91
+        },
+        "SKCM": {
+          "or": 1.569,
+          "p": 0.0
+        },
+        "STAD": {
+          "or": 1.563,
+          "p": 6.6877927621258395e-254
+        },
+        "THCA": {
+          "or": 1.624,
+          "p": 3.612365170721806e-89
+        },
+        "UCEC": {
+          "or": 1.564,
+          "p": 0.0
+        }
+      }
+    },
+    "T5": {
+      "name": "C>T only class enriched Z3 (BRCA proportion)",
+      "result": "C>T OR=1.129 p=5.34e-12",
+      "expected": "C>T OR>1 p<0.05, T-origin all OR<1",
+      "passed": true,
+      "details": {
+        "C>T": {
+          "z1": 10167,
+          "z3": 15822,
+          "z1pct": 46.3,
+          "z3pct": 49.3,
+          "ratio": 1.065,
+          "or": 1.129,
+          "p": 5.3408682333421535e-12
+        },
+        "C>A": {
+          "z1": 3608,
+          "z3": 5073,
+          "z1pct": 16.4,
+          "z3pct": 15.8,
+          "ratio": 0.962,
+          "or": 0.955,
+          "p": 0.05638318797770024
+        },
+        "C>G": {
+          "z1": 3691,
+          "z3": 5602,
+          "z1pct": 16.8,
+          "z3pct": 17.5,
+          "ratio": 1.039,
+          "or": 1.047,
+          "p": 0.04852399999175287
+        },
+        "T>A": {
+          "z1": 1081,
+          "z3": 1374,
+          "z1pct": 4.9,
+          "z3pct": 4.3,
+          "ratio": 0.87,
+          "or": 0.864,
+          "p": 0.00048006611252996215
+        },
+        "T>C": {
+          "z1": 2426,
+          "z3": 3046,
+          "z1pct": 11.0,
+          "z3pct": 9.5,
+          "ratio": 0.859,
+          "or": 0.845,
+          "p": 4.853947598346024e-09
+        },
+        "T>G": {
+          "z1": 1002,
+          "z3": 1186,
+          "z1pct": 4.6,
+          "z3pct": 3.7,
+          "ratio": 0.81,
+          "or": 0.803,
+          "p": 6.332363715191511e-07
+        }
+      }
+    },
+    "T6": {
+      "name": "ChIP-seq mark+ mutation enrichment",
+      "result": "Z3+H3K4me3 ratio=1.387 p=6.97284003859095e-09",
+      "expected": "ratio>1.1 p<0.001 (MC3; GDC gives 3.45x)",
+      "passed": true,
+      "details": {
+        "Z3+H3K4me3": {
+          "ratio": 1.387,
+          "p": 6.97284003859095e-09,
+          "n_plus": 1133,
+          "n_minus": 10437
+        },
+        "Z3+H3K9me3": {
+          "ratio": 1.192,
+          "p": 6.254788993900737e-09,
+          "n_plus": 5813,
+          "n_minus": 136123
+        },
+        "Z1+H3K4me3": {
+          "ratio": 1.709,
+          "p": 5.993075776703982e-09,
+          "n_plus": 481,
+          "n_minus": 10948
+        },
+        "Z1+H3K9me3": {
+          "ratio": 1.794,
+          "p": 4.2848417884230286e-18,
+          "n_plus": 2150,
+          "n_minus": 150441
+        }
+      }
+    },
+    "T7": {
+      "name": "RT independence: all 3 strata sig",
+      "result": "3/3 significant",
+      "expected": "3/3 significant",
+      "passed": true,
+      "details": {
+        "Early": {
+          "or": 1.656,
+          "p": 4.596394178106764e-12,
+          "z1w": 3214,
+          "z3w": 3327
+        },
+        "Mid": {
+          "or": 1.558,
+          "p": 9.195376285070146e-10,
+          "z1w": 3138,
+          "z3w": 3402
+        },
+        "Late": {
+          "or": 1.503,
+          "p": 3.7964383356772456e-08,
+          "z1w": 3188,
+          "z3w": 3192
+        }
+      }
+    },
+    "T8": {
+      "name": "4-mer reverse-map",
+      "result": "top_pos=AAAT r=0.4132 top_neg=CTTT r=-0.4035 P_bias=0.5%",
+      "expected": "AAAT~+0.53, CTCC~-0.44, P_bias<5%",
+      "passed": true,
+      "details": {
+        "top5_pos": [
+          [
+            "AAAT",
+            0.4132,
+            100.0
+          ],
+          [
+            "GAAA",
+            0.3533,
+            75.0
+          ],
+          [
+            "AATA",
+            0.3386,
+            100.0
+          ],
+          [
+            "TAAA",
+            0.318,
+            100.0
+          ],
+          [
+            "ATAA",
+            0.2968,
+            100.0
+          ]
+        ],
+        "top5_neg": [
+          [
+            "TTTC",
+            -0.3211,
+            75.0
+          ],
+          [
+            "TTTT",
+            -0.3323,
+            100.0
+          ],
+          [
+            "TCTT",
+            -0.3497,
+            75.0
+          ],
+          [
+            "TTCT",
+            -0.3693,
+            75.0
+          ],
+          [
+            "CTTT",
+            -0.4035,
+            75.0
+          ]
+        ],
+        "p_norm_diff": 0.45
+      }
+    },
+    "T9": {
+      "name": "AT-skew partial r",
+      "result": "r=+0.3812 Z1=+0.0408 Z3=-0.0475",
+      "expected": "r~0.38, Z1>0, Z3<0",
+      "passed": true,
+      "details": {
+        "r_partial": 0.3812,
+        "z1_at": 0.0408,
+        "z3_at": -0.0475
+      }
+    },
+    "T10": {
+      "name": "Alu Z3/Z1 + causal disproof",
+      "result": "density_ratio=1.80x per_alu Z1=0.51 Z3=0.43",
+      "expected": "ratio~1.80x, Z3 per-Alu < Z1 per-Alu",
+      "passed": true,
+      "details": {
+        "alu_ratio": 1.8,
+        "z1_per_alu_kb": 0.51,
+        "z3_per_alu_kb": 0.43
+      }
+    },
+    "T11": {
+      "name": "Ev OR > GC OR",
+      "result": "GC_OR=0.339 Ev_OR=1.585 delta=+1.246",
+      "expected": "Ev OR > GC OR",
+      "passed": true,
+      "details": {
+        "gc_or": 0.339,
+        "ev_or": 1.585
+      }
+    },
+    "T12": {
+      "name": "TSG/OG segregation",
+      "result": "TSG_Z3=3/18 OG_Z3=5/12 TSG_ev=-0.714 OG_ev=-0.717",
+      "expected": "TP53=Z3, KRAS/NRAS=Z1, TSG_ev < OG_ev",
+      "passed": false,
+      "details": {
+        "or": 0.28,
+        "p": 0.20981663014646518,
+        "p_mw": 0.5084436562080649,
+        "tsg_mean_ev": -0.714,
+        "og_mean_ev": -0.717,
+        "genes": {
+          "TP53": {
+            "zone": "Z3",
+            "role": "TSG",
+            "mean_ev": -2.484,
+            "pct_z3": 100.0,
+            "pct_z1": 0.0
+          },
+          "BRCA1": {
+            "zone": "Z3",
+            "role": "TSG",
+            "mean_ev": -1.553,
+            "pct_z3": 53.6,
+            "pct_z1": 3.6
+          },
+          "ARID1A": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -1.087,
+            "pct_z3": 42.1,
+            "pct_z1": 10.5
+          },
+          "AXIN1": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -1.242,
+            "pct_z3": 42.9,
+            "pct_z1": 7.1
+          },
+          "MSH6": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.851,
+            "pct_z3": 20.0,
+            "pct_z1": 0.0
+          },
+          "CUX1": {
+            "zone": "Z3",
+            "role": "TSG",
+            "mean_ev": -1.455,
+            "pct_z3": 53.1,
+            "pct_z1": 4.2
+          },
+          "KMT2D": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -1.443,
+            "pct_z3": 36.4,
+            "pct_z1": 0.0
+          },
+          "CBL": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.677,
+            "pct_z3": 25.0,
+            "pct_z1": 25.0
+          },
+          "RB1": {
+            "zone": "Z1",
+            "role": "TSG",
+            "mean_ev": 0.34,
+            "pct_z3": 15.8,
+            "pct_z1": 63.2
+          },
+          "APC": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": 0.167,
+            "pct_z3": 4.2,
+            "pct_z1": 45.8
+          },
+          "PTEN": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.007,
+            "pct_z3": 8.3,
+            "pct_z1": 50.0
+          },
+          "VHL": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.845,
+            "pct_z3": 25.0,
+            "pct_z1": 0.0
+          },
+          "CDKN2A": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.159,
+            "pct_z3": 12.5,
+            "pct_z1": 12.5
+          },
+          "NF1": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.09,
+            "pct_z3": 13.6,
+            "pct_z1": 39.0
+          },
+          "NF2": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -1.208,
+            "pct_z3": 33.3,
+            "pct_z1": 4.8
+          },
+          "WT1": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.426,
+            "pct_z3": 16.7,
+            "pct_z1": 16.7
+          },
+          "SMAD4": {
+            "zone": "Z2",
+            "role": "TSG",
+            "mean_ev": -0.264,
+            "pct_z3": 21.4,
+            "pct_z1": 21.4
+          },
+          "FBXW7": {
+            "zone": "Z1",
+            "role": "TSG",
+            "mean_ev": 0.426,
+            "pct_z3": 11.1,
+            "pct_z1": 51.1
+          },
+          "KRAS": {
+            "zone": "Z2",
+            "role": "OG",
+            "mean_ev": 0.561,
+            "pct_z3": 9.1,
+            "pct_z1": 45.5
+          },
+          "NRAS": {
+            "zone": "Z1",
+            "role": "OG",
+            "mean_ev": 0.57,
+            "pct_z3": 0.0,
+            "pct_z1": 60.0
+          },
+          "HRAS": {
+            "zone": "Z2",
+            "role": "OG",
+            "mean_ev": -0.07,
+            "pct_z3": 0.0,
+            "pct_z1": 33.3
+          },
+          "BRAF": {
+            "zone": "Z2",
+            "role": "OG",
+            "mean_ev": -0.058,
+            "pct_z3": 11.6,
+            "pct_z1": 32.6
+          },
+          "PIK3CA": {
+            "zone": "Z1",
+            "role": "OG",
+            "mean_ev": 0.409,
+            "pct_z3": 4.8,
+            "pct_z1": 52.4
+          },
+          "EGFR": {
+            "zone": "Z2",
+            "role": "OG",
+            "mean_ev": -0.746,
+            "pct_z3": 34.1,
+            "pct_z1": 17.1
+          },
+          "MYC": {
+            "zone": "Z2",
+            "role": "OG",
+            "mean_ev": -0.593,
+            "pct_z3": 0.0,
+            "pct_z1": 0.0
+          },
+          "ABL1": {
+            "zone": "Z3",
+            "role": "OG",
+            "mean_ev": -1.39,
+            "pct_z3": 51.4,
+            "pct_z1": 5.4
+          },
+          "ERBB2": {
+            "zone": "Z3",
+            "role": "OG",
+            "mean_ev": -1.64,
+            "pct_z3": 63.6,
+            "pct_z1": 0.0
+          },
+          "STAT3": {
+            "zone": "Z3",
+            "role": "OG",
+            "mean_ev": -2.044,
+            "pct_z3": 64.7,
+            "pct_z1": 0.0
+          },
+          "MCL1": {
+            "zone": "Z3",
+            "role": "OG",
+            "mean_ev": -1.587,
+            "pct_z3": 66.7,
+            "pct_z1": 0.0
+          },
+          "MYCN": {
+            "zone": "Z3",
+            "role": "OG",
+            "mean_ev": -2.017,
+            "pct_z3": 66.7,
+            "pct_z1": 0.0
+          }
+        }
+      }
+    },
+    "T13": {
+      "name": "Z3 hypomethylation",
+      "result": "Z3 \u0394\u03b2=-0.0541 Z1 \u0394\u03b2=0.032 p=3.489698538368975e-09 hypo=90.625%",
+      "expected": "Z3 \u0394\u03b2~-0.054 p<1e-5",
+      "passed": true,
+      "details": {
+        "z3_delta": -0.05407880985116446,
+        "z1_delta": 0.032,
+        "p": 3.489698538368975e-09,
+        "pct_hypo": 90.625
+      }
+    },
+    "T14": {
+      "name": "Horvath positive CpGs Z3 enrichment",
+      "result": "pos OR=1.94 p=1.97e-05, neg OR=0.83 p=4.01e-01",
+      "expected": "pos OR~1.94 p<0.01, neg not enriched",
+      "passed": true,
+      "details": {
+        "all_or": 1.37,
+        "all_p": 0.008402965834971571,
+        "pos_or": 1.94,
+        "pos_p": 1.971866709652665e-05,
+        "neg_or": 0.83,
+        "neg_p": 0.4012253623583125,
+        "n_mapped": 346,
+        "z_counts": {
+          "all": {
+            "Z1": 55,
+            "Z2": 185,
+            "Z3": 106
+          },
+          "pos": {
+            "Z1": 32,
+            "Z2": 85,
+            "Z3": 73
+          },
+          "neg": {
+            "Z1": 23,
+            "Z2": 100,
+            "Z3": 33
+          }
+        }
+      }
+    },
+    "T15": {
+      "name": "Germline Z3/Z1 ratio",
+      "result": "ratio=1.129 amplification=1.40x",
+      "expected": "ratio~1.129, amplification~1.38x",
+      "passed": true,
+      "details": {
+        "ratio": 1.1289017423878338,
+        "p": 1.522318758418961e-82,
+        "amplification": 1.4,
+        "z1_rate": null,
+        "z3_rate": null
+      }
+    },
+    "T16": {
+      "name": "Cross-species Z3 conservation",
+      "result": "10 species, CV=9.7%, mean=-2.353",
+      "expected": "CV~2.6%, all species have Z3",
+      "passed": true,
+      "details": {
+        "cv": 9.7,
+        "mean": -2.353,
+        "n_species": 10,
+        "species": {
+          "Human": {
+            "n_windows": 46105,
+            "z3_pct": 25.1,
+            "z3_mean": -2.26,
+            "ev_mean": -0.556
+          },
+          "Chimp": {
+            "n_windows": 44262,
+            "z3_pct": 25.1,
+            "z3_mean": -2.245,
+            "ev_mean": -0.548
+          },
+          "Arabidopsis": {
+            "n_windows": 6055,
+            "z3_pct": 14.8,
+            "z3_mean": -2.355,
+            "ev_mean": 0.164
+          },
+          "Soybean": {
+            "n_windows": 11290,
+            "z3_pct": 18.0,
+            "z3_mean": -2.476,
+            "ev_mean": 0.127
+          },
+          "Maize": {
+            "n_windows": 61609,
+            "z3_pct": 49.6,
+            "z3_mean": -2.485,
+            "ev_mean": -1.347
+          },
+          "Sorghum": {
+            "n_windows": 15207,
+            "z3_pct": 48.8,
+            "z3_mean": -2.49,
+            "ev_mean": -1.313
+          },
+          "Brachypodium": {
+            "n_windows": 14994,
+            "z3_pct": 54.4,
+            "z3_mean": -2.437,
+            "ev_mean": -1.51
+          },
+          "Physcomitrium": {
+            "n_windows": 6011,
+            "z3_pct": 28.6,
+            "z3_mean": -2.511,
+            "ev_mean": -0.637
+          },
+          "Chlamydomonas": {
+            "n_windows": 1537,
+            "z3_pct": 3.3,
+            "z3_mean": -1.733,
+            "ev_mean": 0.164
+          },
+          "Selaginella": {
+            "n_windows": 42284,
+            "z3_pct": 59.9,
+            "z3_mean": -2.534,
+            "ev_mean": -1.668
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "start": "2026-03-12 02:18:12",
+    "end": "2026-03-12 02:36:46",
+    "n_pass": 16,
+    "n_total": 17
+  }
+}

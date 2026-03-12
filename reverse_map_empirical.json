@@ -1,0 +1,2306 @@
+[
+ {
+  "kmer": "AAAT",
+  "idx": 3,
+  "r_ev_resid": 0.5256290868933738,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.009484435067504581,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "AATA",
+  "idx": 12,
+  "r_ev_resid": 0.4813248721611576,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0069960697532975395,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "TAAA",
+  "idx": 192,
+  "r_ev_resid": 0.46956590707702783,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007764598943036484,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "GAAA",
+  "idx": 128,
+  "r_ev_resid": 0.4630634621995706,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007328381682413417,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ATAA",
+  "idx": 48,
+  "r_ev_resid": 0.4574741687175125,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.006297682214370145,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "TTAA",
+  "idx": 240,
+  "r_ev_resid": 0.45142315012968287,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0062829606479880345,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "CTCC",
+  "idx": 117,
+  "r_ev_resid": -0.4449011502127517,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005200075427735217,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AATT",
+  "idx": 15,
+  "r_ev_resid": 0.42828261026307646,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007099092556562204,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "TCCC",
+  "idx": 213,
+  "r_ev_resid": -0.42722218758500835,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004589629758552447,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GTAA",
+  "idx": 176,
+  "r_ev_resid": 0.4236528203205887,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0034923196522309934,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCCT",
+  "idx": 215,
+  "r_ev_resid": -0.4080405586316662,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005742259455738418,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGAA",
+  "idx": 32,
+  "r_ev_resid": 0.40529397040726245,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007750013511981182,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TAAT",
+  "idx": 195,
+  "r_ev_resid": 0.40060811960831455,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005617242260689509,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "AAAG",
+  "idx": 2,
+  "r_ev_resid": 0.39983190192462587,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007099670227881112,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CTGC",
+  "idx": 121,
+  "r_ev_resid": -0.3988682233139118,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0045952031378848745,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CCTC",
+  "idx": 93,
+  "r_ev_resid": -0.39304679938388587,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005049248169987783,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ATTA",
+  "idx": 60,
+  "r_ev_resid": 0.3909330649430848,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005614664592590821,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "TCTC",
+  "idx": 221,
+  "r_ev_resid": -0.3887375934736897,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005740041907909108,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TAAG",
+  "idx": 194,
+  "r_ev_resid": 0.38218654685627557,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003631226727830825,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AATG",
+  "idx": 14,
+  "r_ev_resid": 0.38147677061436125,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005653953333400297,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AAAA",
+  "idx": 0,
+  "r_ev_resid": 0.3747090610787108,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.014859217235107051,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "TAAC",
+  "idx": 193,
+  "r_ev_resid": 0.36475962242609006,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0028510001614937314,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CAAA",
+  "idx": 64,
+  "r_ev_resid": 0.3584844867659462,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007001335494780176,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GCCT",
+  "idx": 151,
+  "r_ev_resid": -0.35806174015120096,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004655721587241015,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ACTA",
+  "idx": 28,
+  "r_ev_resid": 0.35454253682166526,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003222919733107555,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ACAA",
+  "idx": 16,
+  "r_ev_resid": 0.3535863232079129,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005326256110823787,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AACA",
+  "idx": 4,
+  "r_ev_resid": 0.34913629941463226,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005898116205791803,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AAGT",
+  "idx": 11,
+  "r_ev_resid": 0.34888582522262745,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004886585729747902,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCTG",
+  "idx": 94,
+  "r_ev_resid": -0.3471527511486642,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0058309850551867244,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGCC",
+  "idx": 229,
+  "r_ev_resid": -0.3453278799592927,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00413993267344368,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GCTC",
+  "idx": 157,
+  "r_ev_resid": -0.34403562689845163,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003159826871879663,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ATAG",
+  "idx": 50,
+  "r_ev_resid": 0.3433367786920619,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003517501896937457,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AAGA",
+  "idx": 8,
+  "r_ev_resid": 0.34195769599198084,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0066222610720092,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TGAA",
+  "idx": 224,
+  "r_ev_resid": 0.33923767555232587,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00615587943997656,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTCT",
+  "idx": 183,
+  "r_ev_resid": -0.3371762808392438,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003803801680496648,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CTCT",
+  "idx": 119,
+  "r_ev_resid": -0.33717180927844004,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005844727610026021,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TAGA",
+  "idx": 200,
+  "r_ev_resid": 0.33657187952960216,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004123151937893988,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCAC",
+  "idx": 81,
+  "r_ev_resid": -0.3343016750490222,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004151700129395913,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AAAC",
+  "idx": 1,
+  "r_ev_resid": 0.3338662626372576,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005510385486458809,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCTT",
+  "idx": 95,
+  "r_ev_resid": -0.33384274163955496,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004785140556585984,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGTA",
+  "idx": 44,
+  "r_ev_resid": 0.32393152363525374,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0037255071259955502,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCCT",
+  "idx": 87,
+  "r_ev_resid": -0.3235377035790956,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004086620418333259,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GCTG",
+  "idx": 158,
+  "r_ev_resid": -0.3187287407313713,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004841040516548784,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CACC",
+  "idx": 69,
+  "r_ev_resid": -0.31812709064687245,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003937034030339697,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTGG",
+  "idx": 122,
+  "r_ev_resid": -0.3156805555061269,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005833296537857289,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGCT",
+  "idx": 167,
+  "r_ev_resid": -0.3148497756305926,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004248919824216608,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGTC",
+  "idx": 173,
+  "r_ev_resid": -0.3140918451228888,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0023013285945875793,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CCCA",
+  "idx": 84,
+  "r_ev_resid": -0.3097040095756485,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005467538261314876,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTCG",
+  "idx": 118,
+  "r_ev_resid": -0.3084875735554945,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0008460970802780017,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGGC",
+  "idx": 233,
+  "r_ev_resid": -0.3065672145812652,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004166077506207794,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TCTG",
+  "idx": 222,
+  "r_ev_resid": -0.29594819238108727,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0057726691976318885,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGCT",
+  "idx": 231,
+  "r_ev_resid": -0.28851828448650324,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004872978687624325,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CTTG",
+  "idx": 126,
+  "r_ev_resid": -0.28592199944055113,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004408908560291292,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GATA",
+  "idx": 140,
+  "r_ev_resid": 0.27815575522336133,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0030526322276919877,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCAA",
+  "idx": 208,
+  "r_ev_resid": 0.2770919917353415,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005064727276710325,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTCC",
+  "idx": 181,
+  "r_ev_resid": -0.2751723915176045,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0022626947875288186,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTAA",
+  "idx": 112,
+  "r_ev_resid": 0.2751622994927313,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0037911446593242937,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ATGA",
+  "idx": 56,
+  "r_ev_resid": 0.2721264949699144,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005029248620015248,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CAAT",
+  "idx": 67,
+  "r_ev_resid": 0.2687289460328466,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004038560121112997,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCAG",
+  "idx": 82,
+  "r_ev_resid": -0.26522057113013153,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005833212551985068,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GCCC",
+  "idx": 149,
+  "r_ev_resid": -0.26287856989280284,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.002967860261563717,
+  "has_cpg": false,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CCCC",
+  "idx": 85,
+  "r_ev_resid": -0.2621448534800302,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00328407616429171,
+  "has_cpg": false,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CTTC",
+  "idx": 125,
+  "r_ev_resid": -0.261913196428592,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00482822682693468,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AATC",
+  "idx": 13,
+  "r_ev_resid": 0.26134119259001654,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003989245160027083,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AACT",
+  "idx": 7,
+  "r_ev_resid": 0.2586801206147447,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004707592636342023,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TTCC",
+  "idx": 245,
+  "r_ev_resid": -0.2577084118226488,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0050878116839877295,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATCA",
+  "idx": 52,
+  "r_ev_resid": 0.25732779729753585,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0044788070481309025,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "AGCC",
+  "idx": 37,
+  "r_ev_resid": -0.25718022607418745,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004254367309633365,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GTTA",
+  "idx": 188,
+  "r_ev_resid": 0.25677418577367916,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.002815616144565505,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GGCC",
+  "idx": 165,
+  "r_ev_resid": -0.2529434744789176,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0031429392187468735,
+  "has_cpg": false,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "TCGG",
+  "idx": 218,
+  "r_ev_resid": -0.2528040191109477,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006294981414316757,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AGAT",
+  "idx": 35,
+  "r_ev_resid": 0.2521834490777839,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0048537713967114334,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTGC",
+  "idx": 185,
+  "r_ev_resid": -0.24802974685293688,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0028840736852309944,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GCCA",
+  "idx": 148,
+  "r_ev_resid": -0.24776421728546527,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004154017002850819,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGTG",
+  "idx": 174,
+  "r_ev_resid": -0.24727601228818344,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003937655035078968,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CCCG",
+  "idx": 86,
+  "r_ev_resid": -0.24400166872482876,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0010133275161185278,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "TCCG",
+  "idx": 214,
+  "r_ev_resid": -0.24256351401228796,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006136765162449964,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTCA",
+  "idx": 116,
+  "r_ev_resid": -0.2422644739176288,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005714166775185223,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATAC",
+  "idx": 49,
+  "r_ev_resid": 0.24042005839609956,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003183742013186948,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CGTG",
+  "idx": 110,
+  "r_ev_resid": -0.23960102522912616,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0009686411428876696,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ACCT",
+  "idx": 23,
+  "r_ev_resid": -0.23946444426028538,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004055822702088129,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TCGC",
+  "idx": 217,
+  "r_ev_resid": -0.23842611376351103,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0005309875659975168,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TTGC",
+  "idx": 249,
+  "r_ev_resid": -0.2378865788665567,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0037739866368353297,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CATA",
+  "idx": 76,
+  "r_ev_resid": 0.23584461368757978,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0038883703430814837,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GAAT",
+  "idx": 131,
+  "r_ev_resid": 0.23324650839013603,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00459815797857561,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CAGC",
+  "idx": 73,
+  "r_ev_resid": -0.23313304230861345,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004862774357108906,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTGT",
+  "idx": 123,
+  "r_ev_resid": -0.23281651392366415,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005316783713963357,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGCC",
+  "idx": 101,
+  "r_ev_resid": -0.23264590780320676,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0010072511487452434,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CTTA",
+  "idx": 124,
+  "r_ev_resid": 0.23235643927335903,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0036278511812192003,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TGTC",
+  "idx": 237,
+  "r_ev_resid": -0.23121507588954154,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003672824244756271,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TATG",
+  "idx": 206,
+  "r_ev_resid": 0.23034404722190743,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0038495874198516996,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TGGT",
+  "idx": 235,
+  "r_ev_resid": -0.2294139994111648,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00426345847749608,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CACT",
+  "idx": 71,
+  "r_ev_resid": -0.22739014205489522,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004756280234501159,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATGT",
+  "idx": 59,
+  "r_ev_resid": 0.22698303777648354,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005093069090093313,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CGCT",
+  "idx": 103,
+  "r_ev_resid": -0.22348014564129945,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006649533311034544,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TTAT",
+  "idx": 243,
+  "r_ev_resid": 0.2229597798812315,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00628368769254245,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "CACG",
+  "idx": 70,
+  "r_ev_resid": -0.22280475698981242,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0009645838667979412,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGGT",
+  "idx": 171,
+  "r_ev_resid": -0.22176602272526522,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003005652756088595,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TATT",
+  "idx": 207,
+  "r_ev_resid": 0.2217468265034508,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007032287456876902,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "CAGG",
+  "idx": 74,
+  "r_ev_resid": -0.2217381476405237,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005827062577331773,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ACCC",
+  "idx": 21,
+  "r_ev_resid": -0.22039535083019676,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003010039579143896,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGAA",
+  "idx": 160,
+  "r_ev_resid": 0.21785979740215325,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005144699447936217,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTTA",
+  "idx": 252,
+  "r_ev_resid": 0.21767521906389042,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007777748662082532,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "GACC",
+  "idx": 133,
+  "r_ev_resid": -0.21680078935565106,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.002301905386023417,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CGGC",
+  "idx": 105,
+  "r_ev_resid": -0.2146245996182329,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0007532460303739292,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "TTGG",
+  "idx": 250,
+  "r_ev_resid": -0.2133576142562242,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004498497614577475,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CCGT",
+  "idx": 91,
+  "r_ev_resid": -0.21286920519134805,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.000646417359209525,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CCGG",
+  "idx": 90,
+  "r_ev_resid": -0.21259918527946728,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.000851732875129052,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CGTC",
+  "idx": 109,
+  "r_ev_resid": -0.21236809947566293,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.000533132161110067,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CCGA",
+  "idx": 88,
+  "r_ev_resid": -0.21184419961025636,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006275850182167542,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGGG",
+  "idx": 234,
+  "r_ev_resid": -0.20771044152157575,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005443491474099184,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CGAG",
+  "idx": 98,
+  "r_ev_resid": -0.20526359245096004,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0008436571814505258,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TTAG",
+  "idx": 242,
+  "r_ev_resid": 0.20439422623334957,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003827110542122021,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCGC",
+  "idx": 89,
+  "r_ev_resid": -0.2039459859158829,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0007788199240365541,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "ATTT",
+  "idx": 63,
+  "r_ev_resid": 0.20271664416890178,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.009567825101102967,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "GACG",
+  "idx": 134,
+  "r_ev_resid": -0.20198856577633334,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0005303403621788991,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ATAT",
+  "idx": 51,
+  "r_ev_resid": 0.2013753808797483,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.006418449082606241,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "ACCG",
+  "idx": 22,
+  "r_ev_resid": -0.19959546572993922,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0005106638458501974,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GCAC",
+  "idx": 145,
+  "r_ev_resid": -0.19907189997674318,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.002865791036626318,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CGGA",
+  "idx": 104,
+  "r_ev_resid": -0.19880177483935027,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006108243202093926,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ACGC",
+  "idx": 25,
+  "r_ev_resid": -0.1964622625759848,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.000576700394894159,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TCAC",
+  "idx": 209,
+  "r_ev_resid": -0.19615573698838515,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004239164700641573,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGGG",
+  "idx": 106,
+  "r_ev_resid": -0.19542728098834186,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.001043471596854391,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "GAGC",
+  "idx": 137,
+  "r_ev_resid": -0.19301978926050176,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003224114870861138,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGTA",
+  "idx": 236,
+  "r_ev_resid": 0.19248903619916996,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004605212350506954,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTTC",
+  "idx": 189,
+  "r_ev_resid": -0.19237623270096946,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.002970907597906266,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GTGG",
+  "idx": 186,
+  "r_ev_resid": -0.19215406799281973,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004223162662741507,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GGTT",
+  "idx": 175,
+  "r_ev_resid": -0.19154344547380944,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0032241401676170933,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGAG",
+  "idx": 162,
+  "r_ev_resid": -0.1915134916260913,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.005213470210914056,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AGGC",
+  "idx": 41,
+  "r_ev_resid": -0.19138940853823128,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004659909471498509,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CGGT",
+  "idx": 107,
+  "r_ev_resid": -0.1907713777127209,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0005184223935629954,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGCA",
+  "idx": 228,
+  "r_ev_resid": -0.19027792610815128,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004948159425948241,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GCGT",
+  "idx": 155,
+  "r_ev_resid": -0.19009929735028774,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006034362786912145,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TACA",
+  "idx": 196,
+  "r_ev_resid": 0.18913748062794833,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004557592616095008,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCAT",
+  "idx": 83,
+  "r_ev_resid": -0.18764998785418224,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.004366174180103299,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGCG",
+  "idx": 166,
+  "r_ev_resid": -0.18640970561178324,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0010033503356282987,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CTTT",
+  "idx": 127,
+  "r_ev_resid": -0.18361727590171048,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.007244869047240945,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCCA",
+  "idx": 212,
+  "r_ev_resid": -0.18345162704737236,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.00492125274575573,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGCG",
+  "idx": 38,
+  "r_ev_resid": -0.1819329590843583,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006530538685967087,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TGCG",
+  "idx": 230,
+  "r_ev_resid": -0.1790656123848592,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0006057939794997001,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GTCG",
+  "idx": 182,
+  "r_ev_resid": -0.17893105807417628,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0003496744519737308,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CTAT",
+  "idx": 115,
+  "r_ev_resid": 0.17867062439930886,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.003496395043682157,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TGAG",
+  "idx": 226,
+  "r_ev_resid": -0.17867006770837504,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0056488440620042595,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATCC",
+  "idx": 53,
+  "r_ev_resid": -0.17838227347162597,
+  "p_ev_resid": 0.0,
+  "mean_freq": 0.0033164671452334494,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GCTT",
+  "idx": 159,
+  "r_ev_resid": -0.17768563805935578,
+  "p_ev_resid": 3e-323,
+  "mean_freq": 0.0036879700179766367,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AAGG",
+  "idx": 10,
+  "r_ev_resid": 0.17764952883155044,
+  "p_ev_resid": 3e-323,
+  "mean_freq": 0.004704082544630691,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GCGA",
+  "idx": 152,
+  "r_ev_resid": -0.17729410810134133,
+  "p_ev_resid": 5.14e-322,
+  "mean_freq": 0.0005355561333506534,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "TATA",
+  "idx": 204,
+  "r_ev_resid": 0.1770666058283956,
+  "p_ev_resid": 3.557e-321,
+  "mean_freq": 0.005480459477125291,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "GCGC",
+  "idx": 153,
+  "r_ev_resid": -0.17700933008418213,
+  "p_ev_resid": 5.79e-321,
+  "mean_freq": 0.0006264210252194517,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "GGGC",
+  "idx": 169,
+  "r_ev_resid": -0.1754925345907853,
+  "p_ev_resid": 1.93985852e-315,
+  "mean_freq": 0.002965294054007931,
+  "has_cpg": false,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "GAGG",
+  "idx": 138,
+  "r_ev_resid": -0.17546219708965552,
+  "p_ev_resid": 2.4990539e-315,
+  "mean_freq": 0.005064851517388911,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GATC",
+  "idx": 141,
+  "r_ev_resid": -0.17509604919415625,
+  "p_ev_resid": 5.2948847994e-314,
+  "mean_freq": 0.0025367175303967313,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GTAT",
+  "idx": 179,
+  "r_ev_resid": 0.17465681149511544,
+  "p_ev_resid": 2.045346725738e-312,
+  "mean_freq": 0.003209591695607165,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GCAA",
+  "idx": 144,
+  "r_ev_resid": 0.17260265202234598,
+  "p_ev_resid": 4.74308258932195e-305,
+  "mean_freq": 0.003778459419096675,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACGG",
+  "idx": 26,
+  "r_ev_resid": -0.17039086455402447,
+  "p_ev_resid": 3.186513557002189e-297,
+  "mean_freq": 0.0006789924256609959,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "ACAT",
+  "idx": 19,
+  "r_ev_resid": 0.17018530333325083,
+  "p_ev_resid": 1.6801383028269118e-296,
+  "mean_freq": 0.0050712112802892804,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CTGA",
+  "idx": 120,
+  "r_ev_resid": -0.1694178141151826,
+  "p_ev_resid": 8.184381515059886e-294,
+  "mean_freq": 0.005128783761817749,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TATC",
+  "idx": 205,
+  "r_ev_resid": 0.16699932202245715,
+  "p_ev_resid": 1.9871859543399477e-285,
+  "mean_freq": 0.0030458540513462347,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TACT",
+  "idx": 199,
+  "r_ev_resid": 0.16625343142244509,
+  "p_ev_resid": 7.222021013561115e-283,
+  "mean_freq": 0.003696906847680265,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GCCG",
+  "idx": 150,
+  "r_ev_resid": -0.1657399237358083,
+  "p_ev_resid": 4.114794798650765e-281,
+  "mean_freq": 0.0007668871565955104,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "GCGG",
+  "idx": 154,
+  "r_ev_resid": -0.1649293875393919,
+  "p_ev_resid": 2.3655112143601762e-278,
+  "mean_freq": 0.000765688699572558,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CGCA",
+  "idx": 100,
+  "r_ev_resid": -0.16258875690905392,
+  "p_ev_resid": 1.8318620359911399e-270,
+  "mean_freq": 0.0005718378373841963,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CGAC",
+  "idx": 97,
+  "r_ev_resid": -0.15766261382893798,
+  "p_ev_resid": 3.012164060499891e-254,
+  "mean_freq": 0.0003466890353884566,
+  "has_cpg": true,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AGCT",
+  "idx": 39,
+  "r_ev_resid": -0.15696299724473392,
+  "p_ev_resid": 5.488052931466219e-252,
+  "mean_freq": 0.004571030311846867,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTCT",
+  "idx": 247,
+  "r_ev_resid": -0.1550132231955988,
+  "p_ev_resid": 9.632695919584665e-246,
+  "mean_freq": 0.00774552507241995,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCTT",
+  "idx": 223,
+  "r_ev_resid": -0.1549568844946252,
+  "p_ev_resid": 1.4553319153286283e-245,
+  "mean_freq": 0.006747567360406766,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCAG",
+  "idx": 210,
+  "r_ev_resid": -0.14295548343769976,
+  "p_ev_resid": 6.164475016265022e-209,
+  "mean_freq": 0.005216298101931858,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGAC",
+  "idx": 161,
+  "r_ev_resid": -0.14271833488488014,
+  "p_ev_resid": 3.038658521468212e-208,
+  "mean_freq": 0.002267148240479246,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AGGT",
+  "idx": 43,
+  "r_ev_resid": -0.14208692609691145,
+  "p_ev_resid": 2.0960312477689893e-206,
+  "mean_freq": 0.0040478587981293175,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGTC",
+  "idx": 45,
+  "r_ev_resid": -0.1383258617172383,
+  "p_ev_resid": 1.2548504299376818e-195,
+  "mean_freq": 0.0030477486994723735,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACTC",
+  "idx": 29,
+  "r_ev_resid": -0.13830792669278694,
+  "p_ev_resid": 1.410151185579798e-195,
+  "mean_freq": 0.0036561582738308318,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CATC",
+  "idx": 77,
+  "r_ev_resid": -0.137734796577425,
+  "p_ev_resid": 5.821086645251375e-194,
+  "mean_freq": 0.00360079974718716,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGCG",
+  "idx": 102,
+  "r_ev_resid": -0.13467532977741847,
+  "p_ev_resid": 1.8730521210774664e-185,
+  "mean_freq": 0.0002688996107910685,
+  "has_cpg": true,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "TAGG",
+  "idx": 202,
+  "r_ev_resid": 0.13340471663876038,
+  "p_ev_resid": 5.593327963630628e-182,
+  "mean_freq": 0.0028904466526700778,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GCAG",
+  "idx": 146,
+  "r_ev_resid": -0.13269483834158596,
+  "p_ev_resid": 4.7244971730395995e-180,
+  "mean_freq": 0.004598731676267355,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GAGT",
+  "idx": 139,
+  "r_ev_resid": -0.1321221888732155,
+  "p_ev_resid": 1.6628248003810363e-178,
+  "mean_freq": 0.003584755185013374,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTCA",
+  "idx": 244,
+  "r_ev_resid": 0.13148629265016082,
+  "p_ev_resid": 8.51226776904038e-177,
+  "mean_freq": 0.006291413214509313,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GGGG",
+  "idx": 170,
+  "r_ev_resid": -0.12630978460342643,
+  "p_ev_resid": 3.367881061721274e-163,
+  "mean_freq": 0.0032769991434253333,
+  "has_cpg": false,
+  "at_frac": 0.0
+ },
+ {
+  "kmer": "CGAT",
+  "idx": 99,
+  "r_ev_resid": -0.1255525211707294,
+  "p_ev_resid": 2.946563702694579e-161,
+  "mean_freq": 0.0005266633989319325,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGTA",
+  "idx": 172,
+  "r_ev_resid": 0.12453064217552316,
+  "p_ev_resid": 1.1771064361145974e-158,
+  "mean_freq": 0.0023721642142786885,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GTTG",
+  "idx": 190,
+  "r_ev_resid": -0.1239855038999766,
+  "p_ev_resid": 2.816327087761082e-157,
+  "mean_freq": 0.0031979565187147427,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGTT",
+  "idx": 47,
+  "r_ev_resid": 0.1226449221382103,
+  "p_ev_resid": 6.517538243979845e-154,
+  "mean_freq": 0.004630173663807287,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GAAG",
+  "idx": 130,
+  "r_ev_resid": 0.12098957136058898,
+  "p_ev_resid": 8.252711046061742e-150,
+  "mean_freq": 0.004739573531032219,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TAGT",
+  "idx": 203,
+  "r_ev_resid": 0.11920683804826221,
+  "p_ev_resid": 1.865532464861569e-145,
+  "mean_freq": 0.0031962978400616967,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GACA",
+  "idx": 132,
+  "r_ev_resid": 0.11915164444569312,
+  "p_ev_resid": 2.5383476489594516e-145,
+  "mean_freq": 0.0037469668691107586,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGGA",
+  "idx": 168,
+  "r_ev_resid": -0.11668953914128437,
+  "p_ev_resid": 2.0242784859546e-139,
+  "mean_freq": 0.004579972614423756,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "AAGC",
+  "idx": 9,
+  "r_ev_resid": 0.11640674628687755,
+  "p_ev_resid": 9.463379838261762e-139,
+  "mean_freq": 0.003666469470886311,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATTG",
+  "idx": 62,
+  "r_ev_resid": 0.1159477293106058,
+  "p_ev_resid": 1.1472387083672485e-137,
+  "mean_freq": 0.004041986602908545,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCAT",
+  "idx": 211,
+  "r_ev_resid": 0.11385374268747869,
+  "p_ev_resid": 8.858486723389061e-133,
+  "mean_freq": 0.005103199265004001,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ACTT",
+  "idx": 31,
+  "r_ev_resid": 0.11325116732031423,
+  "p_ev_resid": 2.1726162821311968e-131,
+  "mean_freq": 0.0048890261020685865,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TTAC",
+  "idx": 241,
+  "r_ev_resid": 0.10863694802218557,
+  "p_ev_resid": 5.34942249749366e-121,
+  "mean_freq": 0.003442199807241761,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TCGT",
+  "idx": 219,
+  "r_ev_resid": -0.10420735572282291,
+  "p_ev_resid": 1.9462188840734397e-111,
+  "mean_freq": 0.000611045941528239,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TCTA",
+  "idx": 220,
+  "r_ev_resid": 0.10387063753164927,
+  "p_ev_resid": 9.986002604515343e-111,
+  "mean_freq": 0.003996072289830015,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "TTTT",
+  "idx": 255,
+  "r_ev_resid": -0.09458364393183136,
+  "p_ev_resid": 4.645832366688162e-92,
+  "mean_freq": 0.014966611787794572,
+  "has_cpg": false,
+  "at_frac": 1.0
+ },
+ {
+  "kmer": "GTAC",
+  "idx": 177,
+  "r_ev_resid": 0.09417105967367816,
+  "p_ev_resid": 2.8528256674994705e-91,
+  "mean_freq": 0.0017285738450109717,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TCGA",
+  "idx": 216,
+  "r_ev_resid": -0.09254826723184195,
+  "p_ev_resid": 3.323859152526691e-88,
+  "mean_freq": 0.000551858943440573,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTTG",
+  "idx": 254,
+  "r_ev_resid": -0.09205856435951168,
+  "p_ev_resid": 2.7312912740906517e-87,
+  "mean_freq": 0.007202714230443646,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ATTC",
+  "idx": 61,
+  "r_ev_resid": 0.09064450183001158,
+  "p_ev_resid": 1.1224361797455373e-84,
+  "mean_freq": 0.0046411424374821885,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ACGT",
+  "idx": 27,
+  "r_ev_resid": -0.0896155506117106,
+  "p_ev_resid": 8.440812193349698e-83,
+  "mean_freq": 0.0007308940139275892,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CATG",
+  "idx": 78,
+  "r_ev_resid": -0.08826809676366143,
+  "p_ev_resid": 2.2420024674674472e-80,
+  "mean_freq": 0.004707567304651846,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTCG",
+  "idx": 246,
+  "r_ev_resid": -0.08786983747814517,
+  "p_ev_resid": 1.1482965909120136e-79,
+  "mean_freq": 0.0006123569250415569,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CTAG",
+  "idx": 114,
+  "r_ev_resid": 0.0872067972917192,
+  "p_ev_resid": 1.7137136778743888e-78,
+  "mean_freq": 0.0027961674620471306,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGGG",
+  "idx": 42,
+  "r_ev_resid": -0.08662210567254154,
+  "p_ev_resid": 1.8266731580527233e-77,
+  "mean_freq": 0.004063713187231725,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "GTGA",
+  "idx": 184,
+  "r_ev_resid": -0.0852633466835546,
+  "p_ev_resid": 4.1978464782221813e-75,
+  "mean_freq": 0.004225790701800241,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTTC",
+  "idx": 253,
+  "r_ev_resid": -0.08243004759532416,
+  "p_ev_resid": 2.6660864682624355e-70,
+  "mean_freq": 0.007296626143143743,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GGCA",
+  "idx": 164,
+  "r_ev_resid": -0.0813851720978638,
+  "p_ev_resid": 1.4315754399283172e-68,
+  "mean_freq": 0.004149226088140208,
+  "has_cpg": false,
+  "at_frac": 0.25
+ },
+ {
+  "kmer": "CAAC",
+  "idx": 65,
+  "r_ev_resid": 0.07695933220363674,
+  "p_ev_resid": 1.7266071473937796e-61,
+  "mean_freq": 0.003158764594708999,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AACC",
+  "idx": 5,
+  "r_ev_resid": 0.07519251363736748,
+  "p_ev_resid": 8.974296882152931e-59,
+  "mean_freq": 0.0032240857722687162,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GAAC",
+  "idx": 129,
+  "r_ev_resid": 0.07119829165069362,
+  "p_ev_resid": 7.233238893295249e-53,
+  "mean_freq": 0.0029388769137346344,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GGAT",
+  "idx": 163,
+  "r_ev_resid": -0.06697493936925664,
+  "p_ev_resid": 5.666580087000719e-47,
+  "mean_freq": 0.0033595636443751273,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGGA",
+  "idx": 40,
+  "r_ev_resid": 0.06636686476748482,
+  "p_ev_resid": 3.734680026799903e-46,
+  "mean_freq": 0.005714857368246409,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CATT",
+  "idx": 79,
+  "r_ev_resid": 0.06593117403080034,
+  "p_ev_resid": 1.4270390033454148e-45,
+  "mean_freq": 0.005682539028128462,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ATCG",
+  "idx": 54,
+  "r_ev_resid": -0.06336035157989904,
+  "p_ev_resid": 3.248516579632792e-42,
+  "mean_freq": 0.0005153319317629906,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGTG",
+  "idx": 238,
+  "r_ev_resid": -0.06255320128033687,
+  "p_ev_resid": 3.453547242477298e-41,
+  "mean_freq": 0.005673138287586029,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACAG",
+  "idx": 18,
+  "r_ev_resid": 0.06014127815947938,
+  "p_ev_resid": 3.370654417034529e-38,
+  "mean_freq": 0.005403999912842467,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TAGC",
+  "idx": 201,
+  "r_ev_resid": -0.0591221462724847,
+  "p_ev_resid": 5.697621967815469e-37,
+  "mean_freq": 0.002637641824859061,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CAGA",
+  "idx": 72,
+  "r_ev_resid": 0.05792415435004991,
+  "p_ev_resid": 1.4876007812295935e-35,
+  "mean_freq": 0.005889942223490085,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTGT",
+  "idx": 251,
+  "r_ev_resid": -0.05677514526925602,
+  "p_ev_resid": 3.19343920536282e-34,
+  "mean_freq": 0.005496826963836921,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTGT",
+  "idx": 187,
+  "r_ev_resid": -0.05671681587502306,
+  "p_ev_resid": 3.7252794005102138e-34,
+  "mean_freq": 0.0039827225481348745,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CACA",
+  "idx": 68,
+  "r_ev_resid": -0.056497295687984464,
+  "p_ev_resid": 6.642362686043546e-34,
+  "mean_freq": 0.005554116539546255,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TTGA",
+  "idx": 248,
+  "r_ev_resid": 0.05542046623746141,
+  "p_ev_resid": 1.0974011272063689e-32,
+  "mean_freq": 0.005082046372603847,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GTCA",
+  "idx": 180,
+  "r_ev_resid": -0.05459508002403802,
+  "p_ev_resid": 9.0832203631195e-32,
+  "mean_freq": 0.003139114559440118,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGCA",
+  "idx": 36,
+  "r_ev_resid": 0.05378896349924321,
+  "p_ev_resid": 6.9422119446705405e-31,
+  "mean_freq": 0.004912497675309302,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGAG",
+  "idx": 34,
+  "r_ev_resid": 0.05352652280906489,
+  "p_ev_resid": 1.3373404017912452e-30,
+  "mean_freq": 0.005881783810022717,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGTG",
+  "idx": 46,
+  "r_ev_resid": -0.05335456091561486,
+  "p_ev_resid": 2.0514899024827405e-30,
+  "mean_freq": 0.004736276534203002,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATGG",
+  "idx": 58,
+  "r_ev_resid": 0.05267366444325856,
+  "p_ev_resid": 1.1016646854377254e-29,
+  "mean_freq": 0.00439734521997152,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACAC",
+  "idx": 17,
+  "r_ev_resid": -0.051571615016510704,
+  "p_ev_resid": 1.5990551551348957e-28,
+  "mean_freq": 0.003955542312757636,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGTA",
+  "idx": 108,
+  "r_ev_resid": -0.05027667961537445,
+  "p_ev_resid": 3.451092811707582e-27,
+  "mean_freq": 0.00043397698992278516,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGTT",
+  "idx": 111,
+  "r_ev_resid": -0.049985152241588296,
+  "p_ev_resid": 6.818250863693495e-27,
+  "mean_freq": 0.0006561169623776395,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GATG",
+  "idx": 142,
+  "r_ev_resid": -0.04971874620798661,
+  "p_ev_resid": 1.2659620290912609e-26,
+  "mean_freq": 0.0036220779367966143,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GCAT",
+  "idx": 147,
+  "r_ev_resid": -0.048738771991615526,
+  "p_ev_resid": 1.1989436537787147e-25,
+  "mean_freq": 0.0033386484167486144,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CAGT",
+  "idx": 75,
+  "r_ev_resid": -0.04786804359607818,
+  "p_ev_resid": 8.515891185279967e-25,
+  "mean_freq": 0.00447217221258203,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGAC",
+  "idx": 225,
+  "r_ev_resid": -0.047863656499532455,
+  "p_ev_resid": 8.599666840763805e-25,
+  "mean_freq": 0.0031386041369198692,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CTAC",
+  "idx": 113,
+  "r_ev_resid": -0.04750749764669801,
+  "p_ev_resid": 1.8982435413613775e-24,
+  "mean_freq": 0.0026794565493587614,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GATT",
+  "idx": 143,
+  "r_ev_resid": 0.04435400565846597,
+  "p_ev_resid": 1.6315803455773358e-21,
+  "mean_freq": 0.004051638304067365,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GAGA",
+  "idx": 136,
+  "r_ev_resid": 0.04317544223391487,
+  "p_ev_resid": 1.8127931447978436e-20,
+  "mean_freq": 0.005713564815584985,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACCA",
+  "idx": 20,
+  "r_ev_resid": -0.04286396040956555,
+  "p_ev_resid": 3.3892632704374806e-20,
+  "mean_freq": 0.0042468618386794854,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GACT",
+  "idx": 135,
+  "r_ev_resid": -0.04238070417926485,
+  "p_ev_resid": 8.869673041024056e-20,
+  "mean_freq": 0.0030366323385621497,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AGAC",
+  "idx": 33,
+  "r_ev_resid": 0.04072595952325544,
+  "p_ev_resid": 2.2046685672120194e-18,
+  "mean_freq": 0.003863424581049894,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GTAG",
+  "idx": 178,
+  "r_ev_resid": -0.03903765959481587,
+  "p_ev_resid": 5.14045266510445e-17,
+  "mean_freq": 0.0027064496619228677,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CAAG",
+  "idx": 66,
+  "r_ev_resid": 0.03358132202176685,
+  "p_ev_resid": 5.555926515106544e-13,
+  "mean_freq": 0.004409088691340824,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CCAA",
+  "idx": 80,
+  "r_ev_resid": 0.03309910912005965,
+  "p_ev_resid": 1.1828752524614173e-12,
+  "mean_freq": 0.004438422425466237,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "GTTT",
+  "idx": 191,
+  "r_ev_resid": -0.03234656213194996,
+  "p_ev_resid": 3.766528598449995e-12,
+  "mean_freq": 0.005464120600245359,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "ACTG",
+  "idx": 30,
+  "r_ev_resid": -0.03234308182247736,
+  "p_ev_resid": 3.786531502267348e-12,
+  "mean_freq": 0.004429190539140132,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TACG",
+  "idx": 198,
+  "r_ev_resid": -0.03173616687077749,
+  "p_ev_resid": 9.456530677447615e-12,
+  "mean_freq": 0.00041907501101608576,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATGC",
+  "idx": 57,
+  "r_ev_resid": 0.031345664325460855,
+  "p_ev_resid": 1.689082222897427e-11,
+  "mean_freq": 0.0033135100663839495,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ACGA",
+  "idx": 24,
+  "r_ev_resid": -0.025571460190205557,
+  "p_ev_resid": 4.011598373060981e-08,
+  "mean_freq": 0.000556632361220212,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGTT",
+  "idx": 239,
+  "r_ev_resid": -0.024387569367317976,
+  "p_ev_resid": 1.6402755992963897e-07,
+  "mean_freq": 0.0059380405833590715,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "GCTA",
+  "idx": 156,
+  "r_ev_resid": 0.02360232211250943,
+  "p_ev_resid": 4.032177664820096e-07,
+  "mean_freq": 0.00266893108439361,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "CGAA",
+  "idx": 96,
+  "r_ev_resid": -0.023368910210950333,
+  "p_ev_resid": 5.240136959432015e-07,
+  "mean_freq": 0.0005545621155962766,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGGA",
+  "idx": 232,
+  "r_ev_resid": -0.02198736797581604,
+  "p_ev_resid": 2.351339980291486e-06,
+  "mean_freq": 0.005079196210290255,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "AACG",
+  "idx": 6,
+  "r_ev_resid": 0.019141598349191418,
+  "p_ev_resid": 3.964886099944977e-05,
+  "mean_freq": 0.0006291939514508517,
+  "has_cpg": true,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "ATCT",
+  "idx": 55,
+  "r_ev_resid": 0.017507416394387403,
+  "p_ev_resid": 0.00017085514897097228,
+  "mean_freq": 0.004862262350778072,
+  "has_cpg": false,
+  "at_frac": 0.75
+ },
+ {
+  "kmer": "CCTA",
+  "idx": 92,
+  "r_ev_resid": 0.013628716602553947,
+  "p_ev_resid": 0.003435477694352209,
+  "mean_freq": 0.002875262796036397,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TACC",
+  "idx": 197,
+  "r_ev_resid": -0.0125835733904534,
+  "p_ev_resid": 0.006904176763972788,
+  "mean_freq": 0.002360523706170731,
+  "has_cpg": false,
+  "at_frac": 0.5
+ },
+ {
+  "kmer": "TGAT",
+  "idx": 227,
+  "r_ev_resid": 0.011269033206219333,
+  "p_ev_resid": 0.015554351480399256,
+  "mean_freq": 0.004522989585502755,
+  "has_cpg": false,
+  "at_frac": 0.75
+ }
+]

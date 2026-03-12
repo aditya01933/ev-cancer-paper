@@ -1,0 +1,201 @@
+{
+  "total_windows": 582396,
+  "total_mutations": 3554760,
+  "ev_or": 1.5675,
+  "ev_p": 0.0,
+  "gc_or": 0.3226,
+  "gc_p": 1.0,
+  "delta_or": 1.245,
+  "gc_z1_threshold": 0.437,
+  "gc_z3_threshold": 0.3654,
+  "per_chrom": [
+    {
+      "chrom": "1",
+      "windows": 46105,
+      "mutations": 367285,
+      "Z1": 11429,
+      "Z3": 11570
+    },
+    {
+      "chrom": "2",
+      "windows": 48114,
+      "mutations": 263739,
+      "Z1": 13529,
+      "Z3": 10755
+    },
+    {
+      "chrom": "3",
+      "windows": 39623,
+      "mutations": 207206,
+      "Z1": 11770,
+      "Z3": 7778
+    },
+    {
+      "chrom": "4",
+      "windows": 37958,
+      "mutations": 143386,
+      "Z1": 13217,
+      "Z3": 6250
+    },
+    {
+      "chrom": "5",
+      "windows": 36259,
+      "mutations": 179460,
+      "Z1": 10892,
+      "Z3": 7203
+    },
+    {
+      "chrom": "6",
+      "windows": 34019,
+      "mutations": 182959,
+      "Z1": 10322,
+      "Z3": 6796
+    },
+    {
+      "chrom": "7",
+      "windows": 31800,
+      "mutations": 182057,
+      "Z1": 8580,
+      "Z3": 7653
+    },
+    {
+      "chrom": "8",
+      "windows": 28957,
+      "mutations": 127471,
+      "Z1": 8125,
+      "Z3": 6058
+    },
+    {
+      "chrom": "9",
+      "windows": 24375,
+      "mutations": 117861,
+      "Z1": 6163,
+      "Z3": 5997
+    },
+    {
+      "chrom": "10",
+      "windows": 26662,
+      "mutations": 135470,
+      "Z1": 6431,
+      "Z3": 6594
+    },
+    {
+      "chrom": "11",
+      "windows": 26910,
+      "mutations": 213339,
+      "Z1": 6578,
+      "Z3": 6889
+    },
+    {
+      "chrom": "12",
+      "windows": 26629,
+      "mutations": 187343,
+      "Z1": 6997,
+      "Z3": 6282
+    },
+    {
+      "chrom": "13",
+      "windows": 19603,
+      "mutations": 64695,
+      "Z1": 6470,
+      "Z3": 3724
+    },
+    {
+      "chrom": "14",
+      "windows": 18119,
+      "mutations": 111813,
+      "Z1": 4746,
+      "Z3": 4464
+    },
+    {
+      "chrom": "15",
+      "windows": 16933,
+      "mutations": 111164,
+      "Z1": 3736,
+      "Z3": 4723
+    },
+    {
+      "chrom": "16",
+      "windows": 16366,
+      "mutations": 131830,
+      "Z1": 2708,
+      "Z3": 5391
+    },
+    {
+      "chrom": "17",
+      "windows": 16590,
+      "mutations": 186106,
+      "Z1": 2359,
+      "Z3": 6480
+    },
+    {
+      "chrom": "18",
+      "windows": 16021,
+      "mutations": 59106,
+      "Z1": 4442,
+      "Z3": 4027
+    },
+    {
+      "chrom": "19",
+      "windows": 11690,
+      "mutations": 232901,
+      "Z1": 1222,
+      "Z3": 5242
+    },
+    {
+      "chrom": "20",
+      "windows": 12798,
+      "mutations": 88278,
+      "Z1": 2059,
+      "Z3": 4451
+    },
+    {
+      "chrom": "21",
+      "windows": 8033,
+      "mutations": 33585,
+      "Z1": 2105,
+      "Z3": 2211
+    },
+    {
+      "chrom": "22",
+      "windows": 7846,
+      "mutations": 64744,
+      "Z1": 914,
+      "Z3": 3339
+    },
+    {
+      "chrom": "X",
+      "windows": 30986,
+      "mutations": 162962,
+      "Z1": 7797,
+      "Z3": 8059
+    }
+  ],
+  "per_cancer_or": {
+    "BRCA": 1.585,
+    "SKCM": 1.569,
+    "UCEC": 1.564,
+    "LUAD": 1.52
+  },
+  "brca_p": "2.55e-283",
+  "gc_comparison_note": "GC-zones OR=0.323 inverted on pan-cancer \u2014 Ev captures orthogonal chromatin signal",
+  "pan_cancer_or": {
+    "BRCA": 1.585,
+    "LUAD": 1.52,
+    "LUSC": 1.487,
+    "SKCM": 1.569,
+    "PRAD": 1.611,
+    "BLCA": 1.596,
+    "COAD": 1.579,
+    "GBM": 1.608,
+    "HNSC": 1.547,
+    "KIRC": 1.649,
+    "LIHC": 1.512,
+    "OV": 1.515,
+    "STAD": 1.563,
+    "THCA": 1.624,
+    "UCEC": 1.564
+  },
+  "pan_cancer_15_15": true,
+  "mean_or": 1.569
+}
